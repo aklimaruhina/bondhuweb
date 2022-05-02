@@ -3,6 +3,8 @@ body{font-family: 'Open Sans', sans-serif;}
 header{
 	background: #FEEC01;min-height: 80px;
 }
+ul li{list-style: none;}
+ul{padding-left: 0}
 .navbar{background: #5D8C2A}
 .navbar .nav-link{color: #fff;}
 .navbar .nav-item{margin-right: 3rem}
@@ -29,3 +31,10 @@ img{max-width: 100%;}
 .project .card {box-shadow: 12px 15px 20px 0px rgb(46 61 73 / 15%);border-radius: 4px;transition:all 0.3s ease;}
 .project a:hover .card{box-shadow: 2px 4px 8px 0px rgb(46 61 73 / 20%);}
 .project a:hover .card h4{text-decoration: underline;}
+footer{background: #50742a;color: #b2beb5}
+footer address i{padding-right: 5px;}
+ul.link a{color: #fff;transition: .5s linear;}
+ul.link a:hover{margin-left:10px; }
+ul.link a i{padding-right: 5px;}
+.footer{background: #3c5b1a}
+.footer a{color: #fff;padding-right: 30px;font-size: 18px;}
