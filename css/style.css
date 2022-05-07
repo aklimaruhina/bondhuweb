@@ -26,11 +26,14 @@ img{max-width: 100%;}
 .textcolor3{color:forestgreen;}
 .textcolor4{color:#5cb420}
 .textcolor5{color: #fabc09;}
+.project{margin-bottom: 20px;display: block;}
 .project .card{width: 19rem;}
 .project .card h4{text-align: center;font-size: 20px}
 .project .card {box-shadow: 12px 15px 20px 0px rgb(46 61 73 / 15%);border-radius: 4px;transition:all 0.3s ease;}
+.project a{color: #000}
 .project a:hover .card{box-shadow: 2px 4px 8px 0px rgb(46 61 73 / 20%);}
-.project a:hover .card h4{text-decoration: underline;}
+.project a:hover .card h4{text-decoration: underline;color: #0d6efd}
+.work-img{width: 80%;height: 360px;}
 footer{background: #50742a;color: #b2beb5}
 footer address i{padding-right: 5px;}
 ul.link a{color: #fff;transition: .5s linear;}
@@ -38,3 +41,8 @@ ul.link a:hover{margin-left:10px; }
 ul.link a i{padding-right: 5px;}
 .footer{background: #3c5b1a}
 .footer a{color: #fff;padding-right: 30px;font-size: 18px;}
+
+.mySwiper {
+  /*width: 600px;*/
+  height: 350px;
+}
