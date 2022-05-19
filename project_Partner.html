@@ -1,1079 +1,419 @@
- <!doctype html>
+<!doctype html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <!-- Bootstrap CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-    />
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+          />
     <link
-	  rel="stylesheet"
-	  href="css/swiper-bundle.min.css"
-	/>
-    <title>BBF(Bondhu)</title>
+          rel="stylesheet"
+          href="css/swiper-bundle.min.css"
+          />
+    <title>BBF(Bondhu)
+    </title>
   </head>
   <body>
-      <header class="pt-3">
-      	<div class="container-fluid">
-	      	<div class="d-flex justify-content-between align-items-center">
-	      		<div class="logo">
-	      			<img src="img/BBF-Logo-PNG-file.png">
-	      		</div>
-	      		<div class="header-text">
-	      			<span>The nature does not need you, but you need the nature.</span>
-	      		</div>
-
-	      		<div class="language-btn">
-	      			<select id="list" class="hover" data-toggle="tooltip" data-placement="bottom" style="padding: 2px;border:none;background:none;font-weight:bold;">
-	                    <option value="en" style="border:none; ">English</option>
-	                    <option value="bn" style="border:none; ">বাংলা</option>
-
-	                </select>
-	      		</div>
-	      	</div>
-	    </div>
-      </header>
-      <nav class="navbar navbar-expand-md">
-
-      		<button class="navbar-toggler bg-light " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-		      <span class="navbar-toggler-icon"></span>
-		    </button>
-		    <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-			  <ul class="navbar-nav ml-5">
-			    <li class="nav-item">
-			      <a class="nav-link" href="index.html">Home</a>
-			    </li>
-			    <li class="nav-item dropdown">
-				  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">About Us</a>
-				  <ul class="dropdown-menu">
-				    <li><a class="dropdown-item" href="who_we_are.html">Who We Are</a></li>
-	                <li><a class="dropdown-item" href="what_we_do.html">What We Do</a></li>
-	                <li><a class="dropdown-item" href="organogram.html">Organogram</a></li>
-	                <li><a class="dropdown-item" href="executivemember.html">Executive Member</a></li>
-				  </ul>
-				</li>
-				<li class="nav-item dropdown">
-				  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Project</a>
-				  <ul class="dropdown-menu">
-	                <li><a class="dropdown-item" href="current_Project.html">Current Project</a></li>
-	                <li><a class="dropdown-item" href="upcoming_Project.html">Upcoming Project</a></li>
-	                <li><a class="dropdown-item" href="areaof_Project.html">Area of Project</a></li>
-				  </ul>
-				</li>
-				<li class="nav-item dropdown">
-				  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Partner</a>
-				  <ul class="dropdown-menu">
-	                <li><a class="dropdown-item" href="project_Partner.html">Project Partner</a></li>
-	                <li><a class="dropdown-item" href="implementation_Partner.html">Implementation Partner</a></li>
-				  </ul>
-				</li>
-				<li class="nav-item">
-			      <a class="nav-link" href="event.html">Event</a>
-			    </li>
-			    <li class="nav-item">
-			      <a class="nav-link" href="research.html">Research</a>
-			    </li>
-			    <li class="nav-item dropdown">
-				  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Archive</a>
-				  <ul class="dropdown-menu">
-				    <li><a class="dropdown-item" href="gallery.html">Gallery</a></li>
-				    <li><a class="dropdown-item" href="video.html">Video</a></li>
-				  </ul>
-				</li>
-
-			    <li class="nav-item">
-			      <a class="nav-link" href="career-opportunity.html">Career Opportunity</a>
-			    </li>
-			    <li class="nav-item">
-			      <a class="nav-link" href="contact.html">Contact</a>
-			    </li>
-
-			  </ul>
-			</div>
-	  </nav>
-
-	  <main>
+    <header class="pt-3"> 
+      <div class="container-fluid">
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="logo">
+            <img src="img/BBF-Logo-PNG-file.png">
+          </div>
+          <div class="header-text">
+            <span>The nature does not need you, but you need the nature.
+            </span>
+          </div>
+          <div class="language-btn">
+            <select id="list" class="hover" data-toggle="tooltip" data-placement="bottom" style="padding: 2px;border:none;background:none;font-weight:bold;">
+              <option value="en" style="border:none; ">English
+              </option>
+              <option value="bn" style="border:none; ">বাংলা
+              </option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </header>
+    <nav class="navbar navbar-expand-md">
+      <button class="navbar-toggler bg-light " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">
+        </span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-5">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">About Us
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="who_we_are.html">Who We Are
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="what_we_do.html">What We Do
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="organogram.html">Organogram
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="executivemember.html">Executive Member
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Project
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="current_Project.html">Current Project
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="upcoming_Project.html">Upcoming Project
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="areaof_Project.html">Area of Project
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Partner
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="project_Partner.html">Project Partner
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="implementation_Partner.html">Implementation Partner
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="event.html">Event
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="research.html">Research
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Archive
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="gallery.html">Gallery
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="video.html">Video
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="career-opportunity.html">Career Opportunity
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main>
       <div id="en" class="">
-    <h4 style="text-align:center;background:#50742a;color:white;padding:10px;font-size:20px;text-transform:uppercase;">Project Partner</h4>
-    <div class="row">
-        <div class="col-md-auto col-lg-10 col-sm-12">
-            <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-4 col-sm-12 col-xl-4">
-                            <img style="width:300px;height:300px;" src="https://cdn.logojoy.com/wp-content/uploads/2018/05/30162655/6_big7-768x591.png" />
-                        </div>
-                        <div class="col-md-8 col-sm-12 col-xl-8">
-                            <div class="cont">
-                                <!-- <h6><b>Bangladesh Climate Change Trust (BCCT)</b></h6>-->
-                                <br />
-                                <h6><strong class="" style="font-size:x-large;">GERMAN COOPERATION</strong></h6>
-                                <br />
-                                <p>
-                                    GIZ is a German Development Cooperation that promotes the Improved Cook Stove (ICS) and undertook a project ‘Market Development Initiative for Bondhu Chula’ with Bangladesh Climate Change Trust (BCCT) in 2012-2014. Energising Development (EnDev) of GIZ and BCCT jointly financed the project. The aim of the project was to create entrepreneurs who could produce, sell and install Bondhu Chula as a part of their business. These entrepreneurs are mostly sanitary shop owners and masons. Under this project, 5000 entrepreneurs have been developed and 500,000 Bondhu Chulas have been installed. For implementing the Bondhu Chula Program, EnDev established a country-wide infrastructure with around 200 offices engaging 500 regular staffs and around 1000 part-time staffs. This infrastructure has been handed over to Bangladesh Bondhu Foundation (BONDHU). BBF has been implementing the Bondhu Chula activities on behalf of GIZ-EnDev. After the establishment of BBF, BCCT approved the second phase of the project ‘Market Development Initiative for Bondhu Chula’. Under this new phase, 400,000 Bondhu Chulas are expected to be installed from 01 July 2015 to 31 December 2016. This project is also being implemented jointly by DoE and GIZ (through BBF). Now we have more than 6000 entrepreneurs all over Bangladesh.
-
-
-                                </p>
-
-                                <br />
-                                <button type="button" class="btn " data-toggle="modal" data-target="#myModal" style="background-color:#8AD95A;color:white;">Read More</button>
-                                <!--
-
-    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal">Read More</button>
-
-
-    <div class="modal fade" id="myModal" role="dialog">
-        <div class="modal-dialog" style="max-width:100%;">
-
-
-            <div class="modal-content">
-                <div class="modal-header bg-success text-md-center">
-                    <h3 class="modal-title" style="margin-left:30%;text-transform:uppercase;color:aliceblue;">Bangladesh Climate Change Trust (BCCT)</h3>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
+        <section>
+          <div class="container-fluid">
+            <div class="row project_planner">
+              <h4 class="top-title">Project Partner
+              </h4>
+              <div class="m-auto col-lg-10 col-sm-12">
                 <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-8 col-sm-12 col-md-8">
-                            <h4 style="padding: 2px; border-radius: 1px;">Working Area</h4>
-                            <hr />
-                            <p id="poppartnertexteng">
-                            GIZ is a German Development Cooperation that promotes the Improved Cook Stove (ICS) and undertook a project ‘Market Development Initiative for Bondhu Chula’ with Bangladesh Climate Change Trust (BCCT) in 2012-2014. Energising Development (EnDev) of GIZ and BCCT jointly financed the project. The aim of the project was to create entrepreneurs who could produce, sell and install Bondhu Chula as a part of their business. These entrepreneurs are mostly sanitary shop owners and masons. Under this project, 5000 entrepreneurs have been developed and 500,000 Bondhu Chulas have been installed. For implementing the Bondhu Chula Program, EnDev established a country-wide infrastructure with around 200 offices engaging 500 regular staffs and around 1000 part-time staffs. This infrastructure has been handed over to Bangladesh Bondhu Foundation (BONDHU). BBF has been implementing the Bondhu Chula activities on behalf of GIZ-EnDev. After the establishment of BBF, BCCT approved the second phase of the project ‘Market Development Initiative for Bondhu Chula’. Under this new phase, 400,000 Bondhu Chulas are expected to be installed from 01 July 2015 to 31 December 2016. This project is also being implemented jointly by DoE and GIZ (through BBF). Now we have more than 6000 entrepreneurs all over Bangladesh.
-
-
-                            </p>
-                            <p style="display:none"  id="poppartnertextbng">
-
-জিআইজেড একটি জার্মান ডেভেলপমেন্ট কো-অপারেশন যা ইম্প্রুভড কুক স্টোভ (আইসিএস) বা উন্নত চুলা সম্পর্কে প্রচারণা চালায় এবং ২০১২-২০১ সালে বাংলাদেশ জলবায়ু পরিবর্তন ট্রাস্ট (বিসিসিটি) -এর সাথে ‘বন্ধু চুলার জন্য বাজার উন্নয়ন উদ্যোগ’ প্রকল্প গ্রহণ করে। জিআইজেড এবং বিসিসিটি যৌথভাবে এনার্জাইজিং ডেভেলপমেন্ট (এনডেভ) প্রকল্পটিতে অর্থায়ন করেছে। প্রকল্পের লক্ষ্য ছিল এমন উদ্যোক্তা তৈরি করা যারা তাদের ব্যবসার অংশ হিসেবে বন্ধুচুলা উৎপাদন, বিক্রি এবং ইনস্টল করতে পারে। এই উদ্যোক্তারা বেশিরভাগ স্যানিটারি দোকান মালিক এবং রাজমিস্ত্রি। এই প্রকল্পের অধীনে ৫,০০০ উদ্যোক্তা তৈরী করা হয়েছে এবং ৫০,০০০ বন্ধু চুলা স্থাপন করা হয়েছে। বন্ধু চুলা কর্মসূচি বাস্তবায়নের জন্য, EnDev একটি দেশব্যাপী অবকাঠামো প্রতিষ্ঠা করেছে যেখানে প্রায় ২০০ টি অফিস ৫০০ জন নিয়মিত কর্মী এবং প্রায় ১০০০ খণ্ডকালীন কর্মচারী রয়েছে। এই অবকাঠামো বিবিএফের কাছে হস্তান্তর করা হয়েছে। বংলাদেশ বন্ধু ফাউন্ডেশন (বন্ধু) GIZ-EnDev এর পক্ষ থেকে বন্ধু চুলা কার্যক্রম বাস্তবায়ন করে আসছে। বাংলাদেশ বন্ধু ফাউন্ডেশন (বন্ধু) প্রতিষ্ঠার পর BCCT প্রকল্পের দ্বিতীয় ধাপ অনুমোদন করে চুলার জন্য বাজার উন্নয়ন উদ্যোগ। এই নতুন ধাপের অধীনে ০১ জুলাই ২০১৫ থেকে ৩১ ডিসেম্বর ২০১৬ পর্যন্ত ৪,০০,০০০ বন্ধু চুলা স্থাপন করা হবে বলে আশা করা হচ্ছে। এই প্রকল্পটি DoE, GIZ এবং বাংলাদেশ বন্ধু ফাউন্ডেশন (বন্ধু) এর মাধ্যমে যৌথভাবে বাস্তবায়ন করছে। এখন সারা বাংলাদেশে আমাদের ৬০০০ এরও বেশি উদ্যোক্তা আছে।
-
-
-
-                            </p>
-                        </div>
-                        <div class="col-lg-4 col-sm-4 col-md-4">
-                            <h4 style=" padding: 2px; border-radius: 1px;">Project Partner</h4>
-                            <hr />
-                            1996
-                        </div>
+                  <div class="row project-plan">
+                    <div class="col-md-4 col-sm-12 col-xl-4">
+                      <img src="img/6_big7-768x591.png" />
                     </div>
-                </div>
-                <div class="modal-footer">
-
-                </div>
-            </div>
-
-        </div>
-    </div>
-    -->
-                            </div>
-                        </div>
+                    <div class="col-md-8 col-sm-12 col-xl-8">
+                      <div class="cont">
+                        <!-- <h6><b>Bangladesh Climate Change Trust (BCCT)</b></h6>-->
+                        <h6>
+                          <strong class="" style="font-size:x-large;">GERMAN COOPERATION
+                          </strong>
+                        </h6>
+                        <p>
+                          GIZ is a German Development Cooperation that promotes the Improved Cook Stove (ICS) and undertook a project ‘Market Development Initiative for Bondhu Chula’ with Bangladesh Climate Change Trust (BCCT) in 2012-2014. Energising Development (EnDev) of GIZ and BCCT jointly financed the project. The aim of the project was to create entrepreneurs who could produce, sell and install Bondhu Chula as a part of their business. These entrepreneurs are mostly sanitary shop owners and masons. Under this project, 5000 entrepreneurs have been developed and 500,000 Bondhu Chulas have been installed. For implementing the Bondhu Chula Program, EnDev established a country-wide infrastructure with around 200 offices engaging 500 regular staffs and around 1000 part-time staffs. This infrastructure has been handed over to Bangladesh Bondhu Foundation (BONDHU). BBF has been implementing the Bondhu Chula activities on behalf of GIZ-EnDev. After the establishment of BBF, BCCT approved the second phase of the project ‘Market Development Initiative for Bondhu Chula’. Under this new phase, 400,000 Bondhu Chulas are expected to be installed from 01 July 2015 to 31 December 2016. This project is also being implemented jointly by DoE and GIZ (through BBF). Now we have more than 6000 entrepreneurs all over Bangladesh.
+                        </p>
+                        <button type="button" class="btn bg-green" data-toggle="modal" data-target="#myModal">Read More
+                        </button>
+                      </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-4 col-sm-12 col-xl-4">
-                            <img style="width:300px;height:300px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxoguj2i5GYK6LrrukbceywBerv5kLkf3hFw&usqp=CAU" />
-                        </div>
-                        <div class="col-md-8 col-sm-12 col-xl-8">
-                            <div class="cont">
-                                <!-- <h6><b>Bangladesh Climate Change Trust (BCCT)</b></h6>-->
-                                <br />
-                                <h6><strong class="" style="font-size:x-large;">      ECOEYE</strong></h6>
-                                <br />
-                                <p>
-                                    Ecoeye is an unrivaled carbon credit provider based in Seoul, Korea. With over fifteen years of experience, our team is highly skilled in emission reduction project development, carbon trading, ETS advisory as well as market analysis focusing on domestic trends. Since the launch of the Korea Emission Trading Scheme in January 2015, we have been taking initiatives in developing and promoting international offset credits in cooperation with our diverse set of local and global partners. While assisting compliance entities to establish strategic measures in meeting their ETS targets, we also advise and make suggestions to the government in operating ETS-related policies and regulations to meet the NDC target cost-effectively. Ecoeye aims to provide effective, practical and sustainable solutions for and with all our partners and clients all over the world.
-
-                                </p>
-
-                                <br />
-                                <button type="button" class="btn " data-toggle="modal" data-target="#myModal" style="background-color:#8AD95A;color:white;">Read More</button>
-                                <!--
-
-    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal">Read More</button>
-
-
-    <div class="modal fade" id="myModal" role="dialog">
-        <div class="modal-dialog" style="max-width:100%;">
-
-
-            <div class="modal-content">
-                <div class="modal-header bg-success text-md-center">
-                    <h3 class="modal-title" style="margin-left:30%;text-transform:uppercase;color:aliceblue;">Bangladesh Climate Change Trust (BCCT)</h3>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-8 col-sm-12 col-md-8">
-                            <h4 style="padding: 2px; border-radius: 1px;">Working Area</h4>
-                            <hr />
-                            <p id="poppartnertexteng">
-                            Ecoeye is an unrivaled carbon credit provider based in Seoul, Korea. With over fifteen years of experience, our team is highly skilled in emission reduction project development, carbon trading, ETS advisory as well as market analysis focusing on domestic trends. Since the launch of the Korea Emission Trading Scheme in January 2015, we have been taking initiatives in developing and promoting international offset credits in cooperation with our diverse set of local and global partners. While assisting compliance entities to establish strategic measures in meeting their ETS targets, we also advise and make suggestions to the government in operating ETS-related policies and regulations to meet the NDC target cost-effectively. Ecoeye aims to provide effective, practical and sustainable solutions for and with all our partners and clients all over the world.
-
-                            </p>
-                            <p style="display:none"  id="poppartnertextbng">
-                                ইকোআই দক্ষিণ কোরিয়ার সিউলভিত্তিক একটি অপ্রতিদ্বন্দ্বী কার্বন ক্রেডিট সরবরাহকারী । ১৫ বছরের বেশি সময়ের অভিজ্ঞতাসহ আমাদের প্রতিষ্ঠান নিঃসরণ হ্রাস প্রকল্প উন্নয়ন, কার্বন ট্রেডিং, ইটিএস এডভাইজরি এবং অভ্যন্তরীণ ক্ষেত্রে বাজার বিশ্লেষণের ওপর গুরুত্বারোপ করে। ২০১৫ সালের জানুয়ারীতে কোরিয়া নিঃসরণ বাণিজ্য পরিকল্পনা শুরু করা অবধি বিভিন্ন স্থানীয় এবং বৈশ্বিক অংশীদারদের সাথে সহযোগিতার ভিত্তিতে আন্তর্জাতিক অফসেট ক্রেডিট উন্নয়ন এবং প্রসারের জন্যে আমরা উদ্যোগ গ্রহণ করে চলেছি। সম্মতিপ্রদানকারী সংস্থাগুলিকে তাদের ইটিএস লক্ষ্য পূরণে কৌশলগত ব্যবস্থা স্থাপনে সহায়তা করার সময়, আমরা এনডিসি লক্ষ্যমাত্রা সাশ্রয়ীভাবে পূরণ করার জন্য ইটিএস-সম্পর্কিত নীতি ও প্রবিধানগুলি পরিচালনা করার জন্য সরকারকে পরামর্শ ও পরামর্শ দিই। Ecoeye এর লক্ষ্য সারা বিশ্বে আমাদের সমস্ত অংশীদার এবং ক্লায়েন্টদের জন্য এবং তাদের সাথে কার্যকর, ব্যবহারিক এবং টেকসই সমাধান প্রদান করা।
-
-                            </p>
-                        </div>
-                        <div class="col-lg-4 col-sm-4 col-md-4">
-                            <h4 style=" padding: 2px; border-radius: 1px;">Project Partner</h4>
-                            <hr />
-                            1996
-                        </div>
+                  </div>
+                  <hr>
+                  <div class="row project-plan">
+                    <div class="col-md-4 col-sm-12 col-xl-4">
+                      <img src="img/images.png" />
                     </div>
-                </div>
-                <div class="modal-footer">
-
-                </div>
-            </div>
-
-        </div>
-    </div>
-    -->
-                            </div>
-                        </div>
+                    <div class="col-md-8 col-sm-12 col-xl-8">
+                      <div class="cont">
+                        <h6>
+                          <strong class="" style="font-size:x-large;">      ECOEYE
+                          </strong>
+                        </h6>
+                        <p>
+                          Ecoeye is an unrivaled carbon credit provider based in Seoul, Korea. With over fifteen years of experience, our team is highly skilled in emission reduction project development, carbon trading, ETS advisory as well as market analysis focusing on domestic trends. Since the launch of the Korea Emission Trading Scheme in January 2015, we have been taking initiatives in developing and promoting international offset credits in cooperation with our diverse set of local and global partners. While assisting compliance entities to establish strategic measures in meeting their ETS targets, we also advise and make suggestions to the government in operating ETS-related policies and regulations to meet the NDC target cost-effectively. Ecoeye aims to provide effective, practical and sustainable solutions for and with all our partners and clients all over the world.
+                        </p>
+                        <button type="button" class="btn bg-green" data-toggle="modal" data-target="#myModal">Read More
+                        </button>
+                      </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-4 col-sm-12 col-xl-4">
-                            <img style="width:300px;height:300px;" src="https://cdn.dribbble.com/users/371199/screenshots/11891575/media/6df51f6e524e3918c4ccec381d4f4523.jpg?compress=1&resize=400x300" />
-                        </div>
-                        <div class="col-md-8 col-sm-12 col-xl-8">
-                            <div class="cont">
-                                <!-- <h6><b>Bangladesh Climate Change Trust (BCCT)</b></h6>-->
-                                <br />
-                                <h6><strong class="" style="font-size:x-large;">SK Securities</strong></h6>
-                                <br />
-                                <p>
-                                    SK Securities is a South Korea-based financial service provider that specializes in the securities market. It primarily engaged in securities brokerage, dealing and underwriting businesses, covering stocks, futures, options, government bonds, corporate bonds, foreign exchanges, and financial derivative products. The company is also involved in the investment banking business, which provides acquisition, project financing services, and wealth management services. SK Securities was founded in 1955.
-
-                                </p>
-
-                                <br />
-                                <button type="button" class="btn " data-toggle="modal" data-target="#myModal" style="background-color:#8AD95A;color:white;">Read More</button>
-                                <!--
-
-    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal">Read More</button>
-
-
-    <div class="modal fade" id="myModal" role="dialog">
-        <div class="modal-dialog" style="max-width:100%;">
-
-
-            <div class="modal-content">
-                <div class="modal-header bg-success text-md-center">
-                    <h3 class="modal-title" style="margin-left:30%;text-transform:uppercase;color:aliceblue;">Bangladesh Climate Change Trust (BCCT)</h3>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-8 col-sm-12 col-md-8">
-                            <h4 style="padding: 2px; border-radius: 1px;">Working Area</h4>
-                            <hr />
-                            <p id="poppartnertexteng">
-                            SK Securities is a South Korea-based financial service provider that specializes in the securities market. It primarily engaged in securities brokerage, dealing and underwriting businesses, covering stocks, futures, options, government bonds, corporate bonds, foreign exchanges, and financial derivative products. The company is also involved in the investment banking business, which provides acquisition, project financing services, and wealth management services. SK Securities was founded in 1955.
-
-                            </p>
-                            <p style="display:none"  id="poppartnertextbng">
-                                এসকে সিকিউরিটিজ একটি দক্ষিণ কোরিয়াভিত্তিক আর্থিক পরিষেবা প্রদানকারী প্রতিষ্ঠান যেটি নিরাপত্তার জগতে একটি বিশেষজ্ঞ প্রতিষ্ঠান। এটি প্রাথমিকভাবে সিকিউরিটিজ ব্রোকারেজ, ডিলিং এবং আন্ডাররাইটিং ব্যবসার সাথে জড়িত, স্টক, ফিউচার, অপশন, সরকারি বন্ড, কর্পোরেট বন্ড, বৈদেশিক বিনিময় এবং আর্থিক ডেরিভেটিভ প্রোডাক্টের সাথে জড়িত। কোম্পানিটি বিনিয়োগ ব্যাংকিং ব্যবসায় জড়িত, যা অধিগ্রহণ, প্রকল্প অর্থায়ন পরিষেবা এবং সম্পদ ব্যবস্থাপনা পরিষেবা প্রদান করে। এসকে সিকিউরিটিজ ১৯৫৫ সালে প্রতিষ্ঠিত হয়েছিল।
-
-                            </p>
-                        </div>
-                        <div class="col-lg-4 col-sm-4 col-md-4">
-                            <h4 style=" padding: 2px; border-radius: 1px;">Project Partner</h4>
-                            <hr />
-                            1996
-                        </div>
+                  </div>
+                  <hr>
+                  <div class="row project-plan">
+                    <div class="col-md-4 col-sm-12 col-xl-4">
+                      <img src="https://cdn.dribbble.com/users/371199/screenshots/11891575/media/6df51f6e524e3918c4ccec381d4f4523.jpg?compress=1&resize=400x300" />
                     </div>
-                </div>
-                <div class="modal-footer">
-
-                </div>
-            </div>
-
-        </div>
-    </div>
-    -->
-                            </div>
-                        </div>
+                    <div class="col-md-8 col-sm-12 col-xl-8">
+                      <div class="cont">
+                        <!-- <h6><b>Bangladesh Climate Change Trust (BCCT)</b></h6>-->
+                        <h6>
+                          <strong class="" style="font-size:x-large;">SK Securities
+                          </strong>
+                        </h6>
+                        <p>
+                          SK Securities is a South Korea-based financial service provider that specializes in the securities market. It primarily engaged in securities brokerage, dealing and underwriting businesses, covering stocks, futures, options, government bonds, corporate bonds, foreign exchanges, and financial derivative products. The company is also involved in the investment banking business, which provides acquisition, project financing services, and wealth management services. SK Securities was founded in 1955.
+                        </p>
+                        <button type="button" class="btn bg-green" data-toggle="modal" data-target="#myModal">Read More
+                        </button>
+                      </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-4 col-sm-12 col-xl-4">
-                            <img style="width:300px;height:300px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwXH0FbyNdsjiF2uPv7FGTi6GnalLGwy0sUA&usqp=CAU" />
-                        </div>
-                        <div class="col-md-8 col-sm-12 col-xl-8">
-                            <div class="cont">
-                                <!-- <h6><b>Bangladesh Climate Change Trust (BCCT)</b></h6>-->
-                                <br />
-                                <h6><strong class="" style="font-size:x-large;">      KOMIPO</strong></h6>
-                                <br />
-                                <p>
-                                    Firmly built on its world-class power plant construction and operation technology, Korea Midland Power supplies high quality, stable power through thermal power generation (coal, LNG, heavy oil), wind power generation, solar energy, SRF, and fuel cell power generation. In order to deliver cleaner and healthier energy to the public, Korea Midland Power has replaced the environmental monitoring facilities of its thermal power plants with the world’s top standards and operates safe power plants preventing any concerns about particulates and environmental pollution. It is leading the way for the drive towards energy transformation in Korea through the continued development of a wide variety of renewable energy sources.
-
-                                </p>
-
-                                <br />
-                                <button type="button" class="btn " data-toggle="modal" data-target="#myModal" style="background-color:#8AD95A;color:white;">Read More</button>
-                                <!--
-
-    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal">Read More</button>
-
-
-    <div class="modal fade" id="myModal" role="dialog">
-        <div class="modal-dialog" style="max-width:100%;">
-
-
-            <div class="modal-content">
-                <div class="modal-header bg-success text-md-center">
-                    <h3 class="modal-title" style="margin-left:30%;text-transform:uppercase;color:aliceblue;">Bangladesh Climate Change Trust (BCCT)</h3>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-8 col-sm-12 col-md-8">
-                            <h4 style="padding: 2px; border-radius: 1px;">Working Area</h4>
-                            <hr />
-                            <p id="poppartnertexteng">
-                            Firmly built on its world-class power plant construction and operation technology, Korea Midland Power supplies high quality, stable power through thermal power generation (coal, LNG, heavy oil), wind power generation, solar energy, SRF, and fuel cell power generation. In order to deliver cleaner and healthier energy to the public, Korea Midland Power has replaced the environmental monitoring facilities of its thermal power plants with the world’s top standards and operates safe power plants preventing any concerns about particulates and environmental pollution. It is leading the way for the drive towards energy transformation in Korea through the continued development of a wide variety of renewable energy sources.
-
-                            </p>
-                            <p style="display:none"  id="poppartnertextbng">
-                                বিশ্বমানের বিদ্যুৎকেন্দ্র নির্মাণ ও পরিচালনা প্রযুক্তিতে দৃঢ়ভাবে নির্মিত, কোরিয়া মিডল্যান্ড পাওয়ার তাপীয় বিদ্যুৎ উৎপাদন (কয়লা, এলএনজি, ভারী তেল), বায়ু বিদ্যুৎ উৎপাদন, সৌর শক্তি, এসআরএফ এবং জ্বালানী সেল বিদ্যুৎ উৎপাদনের মাধ্যমে উচ্চমানের, স্থিতিশীল বিদ্যুৎ সরবরাহ করে। । জনসাধারণকে পরিষ্কার এবং স্বাস্থ্যকর শক্তি সরবরাহ করার জন্য, কোরিয়া মিডল্যান্ড পাওয়ার তার তাপ বিদ্যুৎ কেন্দ্রগুলির পরিবেশ পর্যবেক্ষণ সুবিধাগুলি বিশ্বের শীর্ষ মানের সাথে প্রতিস্থাপন করেছে এবং কণা এবং পরিবেশ দূষণ সম্পর্কে উদ্বেগ রোধে নিরাপদ বিদ্যুৎ কেন্দ্র পরিচালনা করে। কোরিয়ায় বিভিন্ন ধরণের নবায়নযোগ্য জ্বালানি উৎসের ক্রমাগত বিকাশের মাধ্যমে এটি কোরিয়ায় শক্তি রূপান্তরের দিকে পরিচালিত করছে।
-
-                            </p>
-                        </div>
-                        <div class="col-lg-4 col-sm-4 col-md-4">
-                            <h4 style=" padding: 2px; border-radius: 1px;">Project Partner</h4>
-                            <hr />
-                            1996
-                        </div>
+                  </div>
+                  <hr>
+                  <div class="row project-plan">
+                    <div class="col-md-4 col-sm-12 col-xl-4">
+                      <img src="img/toyota.png" />
                     </div>
-                </div>
-                <div class="modal-footer">
-
-                </div>
-            </div>
-
-        </div>
-    </div>
-    -->
-                            </div>
-                        </div>
+                    <div class="col-md-8 col-sm-12 col-xl-8">
+                      <div class="cont">
+                        <!-- <h6><b>Bangladesh Climate Change Trust (BCCT)</b></h6>-->
+                        <h6>
+                          <strong class="" style="font-size:x-large;">      KOMIPO
+                          </strong>
+                        </h6>
+                        <p>
+                          Firmly built on its world-class power plant construction and operation technology, Korea Midland Power supplies high quality, stable power through thermal power generation (coal, LNG, heavy oil), wind power generation, solar energy, SRF, and fuel cell power generation. In order to deliver cleaner and healthier energy to the public, Korea Midland Power has replaced the environmental monitoring facilities of its thermal power plants with the world’s top standards and operates safe power plants preventing any concerns about particulates and environmental pollution. It is leading the way for the drive towards energy transformation in Korea through the continued development of a wide variety of renewable energy sources.
+                        </p>
+                        <button type="button" class="btn bg-green" data-toggle="modal" data-target="#myModal">Read More
+                        </button>
+                      </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-4 col-sm-12 col-xl-4">
-                            <img style="width:300px;height:300px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3OiOVya6HSm3Kf71zzhvPKTKdyMnB65OeXw&usqp=CAU" />
-                        </div>
-                        <div class="col-md-8 col-sm-12 col-xl-8">
-                            <div class="cont">
-                                <!-- <h6><b>Bangladesh Climate Change Trust (BCCT)</b></h6>-->
-                                <br />
-                                <h6><strong class="" style="font-size:x-large;">LOCAL GOVERNMENT AND ENGINEERING DEPARTMENT (LGED)</strong></h6>
-                                <br />
-                                <p>
-                                    A meeting was held between LGED (Local Government Engineering Department) and Bangladesh Bondhu Foundation on 1 November 2020 at LGED Office in Dhaka. It was the first working meeting after signing the agreement with LGED in January 2020. The meeting was chaired by Engineer Gopal Krishna Debnath, Superintending Engineer (Planning &amp; Research), LGED. Dr. Engineer Khalequzzaman, Program Manager, Bangladesh Bondhu Foundation was also the key discussant in the meeting. An informative PowerPoint presentation on Bondhu Chula Program was presented by Md. Murtoja, Project Engineer, Bondhu Chula Program, SRI Unit, and LGED. The MoU was signed between LGED and Bangladesh Bondhu Foundation (BONDHU) on 16 January 2020. An agreement is being signed between the Bondhu Chula User and Bangladesh Bondhu Foundation. All the information is inserted in the database through the mobile apps with the signature of the Bondhu Chula users. - Dr. Engineer Khalequzzaman mentioned that Bangladesh Bondhu Foundation has a Bondhu Chula Doctor who is responsible for the maintenance of Bondhu Chula at the field level. A decision has been made that Bangladesh Bondhu Foundation will provide different study reports to LGED. A motivational documentary on using Bondhu Chula is shown through the projector. After the projector show, an open discussion is held with the villagers, where different issues regarding Bondhu Chula are discussed. Expectations from LGED: Dr. Engineer Khalequzzaman mentioned that Bangladesh Bondhu Foundation expects cordial cooperation from LGED for the promotion of Bondhu Chula. Upazila Nirbahi Officer and Upazila LGED Engineer could help in this regard and they can ask the Upazila Chairman and Members in the Upazila Development and Coordination Meeting to inspire about the Bondhu Chula. Engineer Gopal Krishna Debnath suggested that Bangladesh Bondhu Foundation may also communicate with the Additional Divisional Engineer of LGED and share the information about Bondhu Chula with them at the district and divisional levels.
-
-                                </p>
-
-                                <br />
-                                <button type="button" class="btn " data-toggle="modal" data-target="#myModal" style="background-color:#8AD95A;color:white;">Read More</button>
-                                <!--
-
-    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal">Read More</button>
-
-
-    <div class="modal fade" id="myModal" role="dialog">
-        <div class="modal-dialog" style="max-width:100%;">
-
-
-            <div class="modal-content">
-                <div class="modal-header bg-success text-md-center">
-                    <h3 class="modal-title" style="margin-left:30%;text-transform:uppercase;color:aliceblue;">Bangladesh Climate Change Trust (BCCT)</h3>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-8 col-sm-12 col-md-8">
-                            <h4 style="padding: 2px; border-radius: 1px;">Working Area</h4>
-                            <hr />
-                            <p id="poppartnertexteng">
-                            A meeting was held between LGED (Local Government Engineering Department) and Bangladesh Bondhu Foundation on 1 November 2020 at LGED Office in Dhaka. It was the first working meeting after signing the agreement with LGED in January 2020. The meeting was chaired by Engineer Gopal Krishna Debnath, Superintending Engineer (Planning &amp; Research), LGED. Dr. Engineer Khalequzzaman, Program Manager, Bangladesh Bondhu Foundation was also the key discussant in the meeting. An informative PowerPoint presentation on Bondhu Chula Program was presented by Md. Murtoja, Project Engineer, Bondhu Chula Program, SRI Unit, and LGED. The MoU was signed between LGED and Bangladesh Bondhu Foundation (BONDHU) on 16 January 2020. An agreement is being signed between the Bondhu Chula User and Bangladesh Bondhu Foundation. All the information is inserted in the database through the mobile apps with the signature of the Bondhu Chula users. - Dr. Engineer Khalequzzaman mentioned that Bangladesh Bondhu Foundation has a Bondhu Chula Doctor who is responsible for the maintenance of Bondhu Chula at the field level. A decision has been made that Bangladesh Bondhu Foundation will provide different study reports to LGED. A motivational documentary on using Bondhu Chula is shown through the projector. After the projector show, an open discussion is held with the villagers, where different issues regarding Bondhu Chula are discussed. Expectations from LGED: Dr. Engineer Khalequzzaman mentioned that Bangladesh Bondhu Foundation expects cordial cooperation from LGED for the promotion of Bondhu Chula. Upazila Nirbahi Officer and Upazila LGED Engineer could help in this regard and they can ask the Upazila Chairman and Members in the Upazila Development and Coordination Meeting to inspire about the Bondhu Chula. Engineer Gopal Krishna Debnath suggested that Bangladesh Bondhu Foundation may also communicate with the Additional Divisional Engineer of LGED and share the information about Bondhu Chula with them at the district and divisional levels.
-
-                            </p>
-                            <p style="display:none"  id="poppartnertextbng">
-
-স্থানীয় সরকার প্রকৌশল অধিদপ্তর বা ইংরেজি ভাষায় লোকাল গর্ভনমেন্ট ইঞ্জিনিয়ারিং ডিপার্টমেন্ট (এলজিইডি) হল বাংলাদেশ সরকারের একটি সাংগঠনিক অধিদপ্তর। স্থানীয় সরকারের আওতাভুক্ত বিভিন্ন প্রতিষ্ঠানের ভবন তৈরীর ক্ষেত্রে প্রযুক্তিগত উন্নয়ন পরিকল্পনা এবং সাহায্যের জন্য বাংলাদেশ সরকার এই সংগঠনটি প্রতিষ্ঠা করে।
-
-                            </p>
-                        </div>
-                        <div class="col-lg-4 col-sm-4 col-md-4">
-                            <h4 style=" padding: 2px; border-radius: 1px;">Project Partner</h4>
-                            <hr />
-                            1996
-                        </div>
+                  </div>
+                  <hr>
+                  <div class="row project-plan">
+                    <div class="col-md-4 col-sm-12 col-xl-4">
+                      <img src="img/ledge.png" />
                     </div>
-                </div>
-                <div class="modal-footer">
-
-                </div>
-            </div>
-
-        </div>
-    </div>
-    -->
-                            </div>
-                        </div>
+                    <div class="col-md-8 col-sm-12 col-xl-8">
+                      <div class="cont">
+                        <!-- <h6><b>Bangladesh Climate Change Trust (BCCT)</b></h6>-->
+                        <h6>
+                          <strong class="" style="font-size:x-large;">LOCAL GOVERNMENT AND ENGINEERING DEPARTMENT (LGED)
+                          </strong>
+                        </h6>
+                        <p>
+                          A meeting was held between LGED (Local Government Engineering Department) and Bangladesh Bondhu Foundation on 1 November 2020 at LGED Office in Dhaka. It was the first working meeting after signing the agreement with LGED in January 2020. The meeting was chaired by Engineer Gopal Krishna Debnath, Superintending Engineer (Planning &amp; Research), LGED. Dr. Engineer Khalequzzaman, Program Manager, Bangladesh Bondhu Foundation was also the key discussant in the meeting. An informative PowerPoint presentation on Bondhu Chula Program was presented by Md. Murtoja, Project Engineer, Bondhu Chula Program, SRI Unit, and LGED. The MoU was signed between LGED and Bangladesh Bondhu Foundation (BONDHU) on 16 January 2020. An agreement is being signed between the Bondhu Chula User and Bangladesh Bondhu Foundation. All the information is inserted in the database through the mobile apps with the signature of the Bondhu Chula users. - Dr. Engineer Khalequzzaman mentioned that Bangladesh Bondhu Foundation has a Bondhu Chula Doctor who is responsible for the maintenance of Bondhu Chula at the field level. A decision has been made that Bangladesh Bondhu Foundation will provide different study reports to LGED. A motivational documentary on using Bondhu Chula is shown through the projector. After the projector show, an open discussion is held with the villagers, where different issues regarding Bondhu Chula are discussed. Expectations from LGED: Dr. Engineer Khalequzzaman mentioned that Bangladesh Bondhu Foundation expects cordial cooperation from LGED for the promotion of Bondhu Chula. Upazila Nirbahi Officer and Upazila LGED Engineer could help in this regard and they can ask the Upazila Chairman and Members in the Upazila Development and Coordination Meeting to inspire about the Bondhu Chula. Engineer Gopal Krishna Debnath suggested that Bangladesh Bondhu Foundation may also communicate with the Additional Divisional Engineer of LGED and share the information about Bondhu Chula with them at the district and divisional levels.
+                        </p>
+                        <button type="button" class="btn bg-green" data-toggle="modal" data-target="#myModal">Read More
+                        </button>
+                      </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-4 col-sm-12 col-xl-4">
-                            <img style="width:300px;height:300px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTwELWuAhA5_ncCNwy6BS1gxSH-eRuoE66Gg&usqp=CAU" />
-                        </div>
-                        <div class="col-md-8 col-sm-12 col-xl-8">
-                            <div class="cont">
-                                <!-- <h6><b>Bangladesh Climate Change Trust (BCCT)</b></h6>-->
-                                <br />
-                                <h6><strong class="" style="font-size:x-large;">DEPARTMENT OF ENVIRONMENT (DoE)</strong></h6>
-                                <br />
-                                <p>
-                                    BCCT (Bangladesh Climate Change Trust) and GIZ (German Development Co-operation) undertook a project titled ‘Market Development Initiative for Bondhu Chula’. The aim of the project was to create 5000 entrepreneurs, who could produce, sell and install Bondhu Chula as a part of their business. The project was successfully implemented by DoE and GIZ and was completed on 31st March 2014. After the establishment of BBF, BCCT approved the second phase of the project ‘Market Development Initiative for Bondhu Chula’. Under this new phase, 400,000 Bondhu Chula’s are expected to be installed during the period from 01 July 2015 to 31 December 2016. This project was successfully completed by DoE and GIZ, which is being implemented by BBF (Bangladesh Bondhu Foundation).
-
-                                </p>
-
-                                <br />
-                                <button type="button" class="btn " data-toggle="modal" data-target="#myModal" style="background-color:#8AD95A;color:white;">Read More</button>
-                                <!--
-
-    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal">Read More</button>
-
-
-    <div class="modal fade" id="myModal" role="dialog">
-        <div class="modal-dialog" style="max-width:100%;">
-
-
-            <div class="modal-content">
-                <div class="modal-header bg-success text-md-center">
-                    <h3 class="modal-title" style="margin-left:30%;text-transform:uppercase;color:aliceblue;">Bangladesh Climate Change Trust (BCCT)</h3>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-8 col-sm-12 col-md-8">
-                            <h4 style="padding: 2px; border-radius: 1px;">Working Area</h4>
-                            <hr />
-                            <p id="poppartnertexteng">
-                            BCCT (Bangladesh Climate Change Trust) and GIZ (German Development Co-operation) undertook a project titled ‘Market Development Initiative for Bondhu Chula’. The aim of the project was to create 5000 entrepreneurs, who could produce, sell and install Bondhu Chula as a part of their business. The project was successfully implemented by DoE and GIZ and was completed on 31st March 2014. After the establishment of BBF, BCCT approved the second phase of the project ‘Market Development Initiative for Bondhu Chula’. Under this new phase, 400,000 Bondhu Chula’s are expected to be installed during the period from 01 July 2015 to 31 December 2016. This project was successfully completed by DoE and GIZ, which is being implemented by BBF (Bangladesh Bondhu Foundation).
-
-                            </p>
-                            <p style="display:none"  id="poppartnertextbng">
-
-জিআইজেড একটি জার্মান ডেভেলপমেন্ট কো-অপারেশন যা ইম্প্রুভেড কুক স্টোভ (আইসিএস) প্রচার করে এবং ২০১২-২০১ সালে বাংলাদেশ জলবায়ু পরিবর্তন ট্রাস্ট (বিসিসিটি) -এর সাথে ‘বন্ধু চুলার জন্য বাজার উন্নয়ন উদ্যোগ’ প্রকল্প গ্রহণ করে। জিআইজেড এবং বিসিসিটির যৌথভাবে এনার্জাইজিং ডেভেলপমেন্ট (এনডেভ) প্রকল্পটিকে অর্থায়ন করেছে। প্রকল্পের লক্ষ্য ছিল এমন উদ্যোক্তা তৈরি করা যারা তাদের ব্যবসার অংশ হিসেবে বন্ধুচুলা উৎপাদন, বিক্রি এবং ইনস্টল করতে পারে। এই উদ্যোক্তারা বেশিরভাগ স্যানিটারি দোকান মালিক এবং রাজমিস্ত্রি। এই প্রকল্পের অধীনে ৫০০০ উদ্যোক্তাদের বিকাশ করা হয়েছে এবং ৫,০,০০০ বন্ধু চুলগুলি স্থাপন করা হয়েছে। বন্ধু চুলা কর্মসূচি বাস্তবায়নের জন্য, EnDev একটি দেশব্যাপী অবকাঠামো প্রতিষ্ঠা করেছে যেখানে প্রায় ২০০ টি অফিস ৫০০ জন নিয়মিত কর্মী এবং প্রায় ১০০০ খণ্ডকালীন কর্মচারী রয়েছে। এই অবকাঠামো বিবিএফের কাছে হস্তান্তর করা হয়েছে। BIF GIZ-EnDev এর পক্ষ থেকে বন্ধু চুলা কার্যক্রম বাস্তবায়ন করে আসছে। বাংলাদেশ বন্ধু ফাউন্ডেশন (বন্ধু) প্রতিষ্ঠার পর, BCCT প্রকল্পের দ্বিতীয় ধাপ অনুমোদন করে ‘বাজার চুলার জন্য বাজার উন্নয়ন উদ্যোগ’। এই নতুন ধাপের অধীনে, ০১ জুলাই ২০১৫ থেকে ৩১ ডিসেম্বর ২০১৬ পর্যন্ত ৪০০০০০ বন্ধু চুলগুলি স্থাপন করা হবে বলে আশা করা হচ্ছে। এই প্রকল্পটি DoE এবং GIZ, বাংলাদেশ বন্ধু ফাউন্ডেশন (বন্ধু) এর মাধ্যমে যৌথভাবে বাস্তবায়ন করছে এখন আমাদের সারা বাংলাদেশে ৬০০০ এরও বেশি উদ্যোক্তা আছে।
-
-                            </p>
-                        </div>
-                        <div class="col-lg-4 col-sm-4 col-md-4">
-                            <h4 style=" padding: 2px; border-radius: 1px;">Project Partner</h4>
-                            <hr />
-                            2000
-                        </div>
+                  </div>
+                  <hr>
+                  <div class="row project-plan">
+                    <div class="col-md-4 col-sm-12 col-xl-4">
+                      <img src="img/doe.png" />
                     </div>
-                </div>
-                <div class="modal-footer">
-
-                </div>
-            </div>
-
-        </div>
-    </div>
-    -->
-                            </div>
-                        </div>
+                    <div class="col-md-8 col-sm-12 col-xl-8">
+                      <div class="cont">
+                        <!-- <h6><b>Bangladesh Climate Change Trust (BCCT)</b></h6>-->
+                        <h6>
+                          <strong class="" style="font-size:x-large;">DEPARTMENT OF ENVIRONMENT (DoE)
+                          </strong>
+                        </h6>
+                        <p>
+                          BCCT (Bangladesh Climate Change Trust) and GIZ (German Development Co-operation) undertook a project titled ‘Market Development Initiative for Bondhu Chula’. The aim of the project was to create 5000 entrepreneurs, who could produce, sell and install Bondhu Chula as a part of their business. The project was successfully implemented by DoE and GIZ and was completed on 31st March 2014. After the establishment of BBF, BCCT approved the second phase of the project ‘Market Development Initiative for Bondhu Chula’. Under this new phase, 400,000 Bondhu Chula’s are expected to be installed during the period from 01 July 2015 to 31 December 2016. This project was successfully completed by DoE and GIZ, which is being implemented by BBF (Bangladesh Bondhu Foundation).
+                        </p>
+                        <button type="button" class="btn bg-green" data-toggle="modal" data-target="#myModal">Read More
+                        </button>
+                      </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-4 col-sm-12 col-xl-4">
-                            <img style="width:300px;height:300px;" src="https://www.designevo.com/res/templates/thumb_small/overlapping-red-and-blue-circle.png" />
-                        </div>
-                        <div class="col-md-8 col-sm-12 col-xl-8">
-                            <div class="cont">
-                                <!-- <h6><b>Bangladesh Climate Change Trust (BCCT)</b></h6>-->
-                                <br />
-                                <h6><strong class="" style="font-size:x-large;">VNV ADVISORY SERVICES</strong></h6>
-                                <br />
-                                <p>
-                                    Bangladesh Bondhu Foundation (BONDHU) and VNV Advisory Services are going to jointly implement a program titled &quot;Solar Pumping System for Drinking Water Supply Plant&quot; in Bangladesh under the Gold Standard project. The objective of the project is to provide safe drinking water to the people in the coastal areas of Bangladesh who are at risk of climate change. To this end, the wastewater plant already set up by GIZ will be repaired and new plants will be set up. The project will be registered with the Gold Standard and the universal goal of the Gold Standard will contribute to the reduction of carbon emissions.
-
-                                </p>
-
-                                <br />
-                                <button type="button" class="btn " data-toggle="modal" data-target="#myModal" style="background-color:#8AD95A;color:white;">Read More</button>
-                                <!--
-
-    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal">Read More</button>
-
-
-    <div class="modal fade" id="myModal" role="dialog">
-        <div class="modal-dialog" style="max-width:100%;">
-
-
-            <div class="modal-content">
-                <div class="modal-header bg-success text-md-center">
-                    <h3 class="modal-title" style="margin-left:30%;text-transform:uppercase;color:aliceblue;">Bangladesh Climate Change Trust (BCCT)</h3>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-8 col-sm-12 col-md-8">
-                            <h4 style="padding: 2px; border-radius: 1px;">Working Area</h4>
-                            <hr />
-                            <p id="poppartnertexteng">
-                            Bangladesh Bondhu Foundation (BONDHU) and VNV Advisory Services are going to jointly implement a program titled &quot;Solar Pumping System for Drinking Water Supply Plant&quot; in Bangladesh under the Gold Standard project. The objective of the project is to provide safe drinking water to the people in the coastal areas of Bangladesh who are at risk of climate change. To this end, the wastewater plant already set up by GIZ will be repaired and new plants will be set up. The project will be registered with the Gold Standard and the universal goal of the Gold Standard will contribute to the reduction of carbon emissions.
-
-                            </p>
-                            <p style="display:none"  id="poppartnertextbng">
-
-বাংলাদেশ বন্ধু ফাউন্ডেশন (বন্ধু) এবং ভিএনভি এডভাইজরি সার্ভিসেস যৌথভাবে বাংলাদেশে গোল্ড স্ট্যান্ডার্ড প্রকল্পের আওতায় “সোলার পাম্পিং সিস্টেম ফর ড্রিংকিং ওয়াটার সাপ্লাই প্ল্যান্ট” শীর্ষক কার্যক্রম বাস্তবায়ন করতে যাচ্ছে। প্রকল্পের উদ্দেশ্য বাংলাদেশের উপকূলীয় অঞ্চলের জলবায়ু পরিবর্তনে হুমকির মধ্যে থাকা জনগোষ্ঠীর জন্য নিরাপদ ও সুপেয় পানির সরবরাহ করা। এজন্য ইতোমধ্যে জি আই জেড দ্বারা স্থাপিত অকেজো পানির প্ল্যান্ট মেরামত করা হবে এবং নতুন প্ল্যান্ট স্থাপন করা হবে। প্রকল্পটি গোল্ড স্ট্যান্ডার্ডের সাথে রেজিষ্ট্রেশন করা হবে এবং গোল্ড স্ট্যান্ডার্ডের সার্বজনীন লক্ষ্য কার্বন নিঃসরণ হ্রাসে অবদান রাখবে।
-
-                            </p>
-                        </div>
-                        <div class="col-lg-4 col-sm-4 col-md-4">
-                            <h4 style=" padding: 2px; border-radius: 1px;">Project Partner</h4>
-                            <hr />
-                            2000
-                        </div>
+                  </div>
+                  <hr>
+                  <div class="row project-plan">
+                    <div class="col-md-4 col-sm-12 col-xl-4">
+                      <img src="https://www.designevo.com/res/templates/thumb_small/overlapping-red-and-blue-circle.png" />
                     </div>
-                </div>
-                <div class="modal-footer">
-
-                </div>
-            </div>
-
-        </div>
-    </div>
-    -->
-                            </div>
-                        </div>
-                    </div>
-
-            </div>
-        </div>
-
-    </div>
+                    <div class="col-md-8 col-sm-12 col-xl-8">
+                      <div class="cont">
+                        <!-- <h6><b>Bangladesh Climate Change Trust (BCCT)</b></h6>-->
+                        <h6>
+                          <strong class="" style="font-size:x-large;">VNV ADVISORY SERVICES
+                          </strong>
+                        </h6>
+                        <p>
+                          Bangladesh Bondhu Foundation (BONDHU) and VNV Advisory Services are going to jointly implement a program titled &quot;Solar Pumping System for Drinking Water Supply Plant&quot; in Bangladesh under the Gold Standard project. The objective of the project is to provide safe drinking water to the people in the coastal areas of Bangladesh who are at risk of climate change. To this end, the wastewater plant already set up by GIZ will be repaired and new plants will be set up. The project will be registered with the Gold Standard and the universal goal of the Gold Standard will contribute to the reduction of carbon emissions.
+                        </p>
+                        <button type="button" class="btn bg-green" data-toggle="modal" data-target="#myModal">Read More
+                        </button>
+                        <!--
+<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal">Read More</button>
+<div class="modal fade" id="myModal" role="dialog">
+<div class="modal-dialog" style="max-width:100%;">
+<div class="modal-content">
+<div class="modal-header bg-success text-md-center">
+<h3 class="modal-title" style="margin-left:30%;text-transform:uppercase;color:aliceblue;">Bangladesh Climate Change Trust (BCCT)</h3>
+<button type="button" class="close" data-dismiss="modal">&times;</button>
 </div>
-
-<div id="bn" style="display:none" class="">
-    <h4 style="text-align:center;background:#50742a;color:white;padding:10px;font-size:20px;">প্রকল্প অংশীদার</h4>
-    <div class="row">
-        <div class="col-md-auto col-lg-10 col-sm-12">
-            <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-4 col-sm-12 col-xl-4">
-                            <img style="width:300px;height:300px;" src="/Content/Admin/Upload/ProjectPartner/GIZ 01.jpg" />
-                        </div>
-                        <div class="col-md-8 col-sm-12 col-xl-8">
-                            <div class="cont">
-                                <!-- <h6><b>Bangladesh Climate Change Trust (BCCT)</b></h6>-->
-                                <br />
-                                <h6><strong style="font-family:Kalpurush;font-size:x-large;">জার্মান সহযোগিতা</strong></h6>
-                                <br />
-                                <p style="font-family:Kalpurush;">
-
-জিআইজেড একটি জার্মান ডেভেলপমেন্ট কো-অপারেশন যা ইম্প্রুভড কুক স্টোভ (আইসিএস) বা উন্নত চুলা সম্পর্কে প্রচারণা চালায় এবং ২০১২-২০১ সালে বাংলাদেশ জলবায়ু পরিবর্তন ট্রাস্ট (বিসিসিটি) -এর সাথে ‘বন্ধু চুলার জন্য বাজার উন্নয়ন উদ্যোগ’ প্রকল্প গ্রহণ করে। জিআইজেড এবং বিসিসিটি যৌথভাবে এনার্জাইজিং ডেভেলপমেন্ট (এনডেভ) প্রকল্পটিতে অর্থায়ন করেছে। প্রকল্পের লক্ষ্য ছিল এমন উদ্যোক্তা তৈরি করা যারা তাদের ব্যবসার অংশ হিসেবে বন্ধুচুলা উৎপাদন, বিক্রি এবং ইনস্টল করতে পারে। এই উদ্যোক্তারা বেশিরভাগ স্যানিটারি দোকান মালিক এবং রাজমিস্ত্রি। এই প্রকল্পের অধীনে ৫,০০০ উদ্যোক্তা তৈরী করা হয়েছে এবং ৫০,০০০ বন্ধু চুলা স্থাপন করা হয়েছে। বন্ধু চুলা কর্মসূচি বাস্তবায়নের জন্য, EnDev একটি দেশব্যাপী অবকাঠামো প্রতিষ্ঠা করেছে যেখানে প্রায় ২০০ টি অফিস ৫০০ জন নিয়মিত কর্মী এবং প্রায় ১০০০ খণ্ডকালীন কর্মচারী রয়েছে। এই অবকাঠামো বিবিএফের কাছে হস্তান্তর করা হয়েছে। বংলাদেশ বন্ধু ফাউন্ডেশন (বন্ধু) GIZ-EnDev এর পক্ষ থেকে বন্ধু চুলা কার্যক্রম বাস্তবায়ন করে আসছে। বাংলাদেশ বন্ধু ফাউন্ডেশন (বন্ধু) প্রতিষ্ঠার পর BCCT প্রকল্পের দ্বিতীয় ধাপ অনুমোদন করে চুলার জন্য বাজার উন্নয়ন উদ্যোগ। এই নতুন ধাপের অধীনে ০১ জুলাই ২০১৫ থেকে ৩১ ডিসেম্বর ২০১৬ পর্যন্ত ৪,০০,০০০ বন্ধু চুলা স্থাপন করা হবে বলে আশা করা হচ্ছে। এই প্রকল্পটি DoE, GIZ এবং বাংলাদেশ বন্ধু ফাউন্ডেশন (বন্ধু) এর মাধ্যমে যৌথভাবে বাস্তবায়ন করছে। এখন সারা বাংলাদেশে আমাদের ৬০০০ এরও বেশি উদ্যোক্তা আছে।
-
-
-
-                                </p>
-
-                                <br />
-                                <button type="button" class="btn " data-toggle="modal" data-target="#myModal" style="background-color:#8AD95A;color:white;">আরও পড়ুন</button>
-                                <!--
-
-    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal">Read More</button>
-
-
-    <div class="modal fade" id="myModal" role="dialog">
-        <div class="modal-dialog" style="max-width:100%;">
-
-
-            <div class="modal-content">
-                <div class="modal-header bg-success text-md-center">
-                    <h3 class="modal-title" style="margin-left:30%;text-transform:uppercase;color:aliceblue;">Bangladesh Climate Change Trust (BCCT)</h3>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-8 col-sm-12 col-md-8">
-                            <h4 style="padding: 2px; border-radius: 1px;">Working Area</h4>
-                            <hr />
-                            <p id="poppartnertexteng">
-                            GIZ is a German Development Cooperation that promotes the Improved Cook Stove (ICS) and undertook a project ‘Market Development Initiative for Bondhu Chula’ with Bangladesh Climate Change Trust (BCCT) in 2012-2014. Energising Development (EnDev) of GIZ and BCCT jointly financed the project. The aim of the project was to create entrepreneurs who could produce, sell and install Bondhu Chula as a part of their business. These entrepreneurs are mostly sanitary shop owners and masons. Under this project, 5000 entrepreneurs have been developed and 500,000 Bondhu Chulas have been installed. For implementing the Bondhu Chula Program, EnDev established a country-wide infrastructure with around 200 offices engaging 500 regular staffs and around 1000 part-time staffs. This infrastructure has been handed over to Bangladesh Bondhu Foundation (BONDHU). BBF has been implementing the Bondhu Chula activities on behalf of GIZ-EnDev. After the establishment of BBF, BCCT approved the second phase of the project ‘Market Development Initiative for Bondhu Chula’. Under this new phase, 400,000 Bondhu Chulas are expected to be installed from 01 July 2015 to 31 December 2016. This project is also being implemented jointly by DoE and GIZ (through BBF). Now we have more than 6000 entrepreneurs all over Bangladesh.
-
-
-                            </p>
-                            <p style="display:none"  id="poppartnertextbng">
-
-জিআইজেড একটি জার্মান ডেভেলপমেন্ট কো-অপারেশন যা ইম্প্রুভড কুক স্টোভ (আইসিএস) বা উন্নত চুলা সম্পর্কে প্রচারণা চালায় এবং ২০১২-২০১ সালে বাংলাদেশ জলবায়ু পরিবর্তন ট্রাস্ট (বিসিসিটি) -এর সাথে ‘বন্ধু চুলার জন্য বাজার উন্নয়ন উদ্যোগ’ প্রকল্প গ্রহণ করে। জিআইজেড এবং বিসিসিটি যৌথভাবে এনার্জাইজিং ডেভেলপমেন্ট (এনডেভ) প্রকল্পটিতে অর্থায়ন করেছে। প্রকল্পের লক্ষ্য ছিল এমন উদ্যোক্তা তৈরি করা যারা তাদের ব্যবসার অংশ হিসেবে বন্ধুচুলা উৎপাদন, বিক্রি এবং ইনস্টল করতে পারে। এই উদ্যোক্তারা বেশিরভাগ স্যানিটারি দোকান মালিক এবং রাজমিস্ত্রি। এই প্রকল্পের অধীনে ৫,০০০ উদ্যোক্তা তৈরী করা হয়েছে এবং ৫০,০০০ বন্ধু চুলা স্থাপন করা হয়েছে। বন্ধু চুলা কর্মসূচি বাস্তবায়নের জন্য, EnDev একটি দেশব্যাপী অবকাঠামো প্রতিষ্ঠা করেছে যেখানে প্রায় ২০০ টি অফিস ৫০০ জন নিয়মিত কর্মী এবং প্রায় ১০০০ খণ্ডকালীন কর্মচারী রয়েছে। এই অবকাঠামো বিবিএফের কাছে হস্তান্তর করা হয়েছে। বংলাদেশ বন্ধু ফাউন্ডেশন (বন্ধু) GIZ-EnDev এর পক্ষ থেকে বন্ধু চুলা কার্যক্রম বাস্তবায়ন করে আসছে। বাংলাদেশ বন্ধু ফাউন্ডেশন (বন্ধু) প্রতিষ্ঠার পর BCCT প্রকল্পের দ্বিতীয় ধাপ অনুমোদন করে চুলার জন্য বাজার উন্নয়ন উদ্যোগ। এই নতুন ধাপের অধীনে ০১ জুলাই ২০১৫ থেকে ৩১ ডিসেম্বর ২০১৬ পর্যন্ত ৪,০০,০০০ বন্ধু চুলা স্থাপন করা হবে বলে আশা করা হচ্ছে। এই প্রকল্পটি DoE, GIZ এবং বাংলাদেশ বন্ধু ফাউন্ডেশন (বন্ধু) এর মাধ্যমে যৌথভাবে বাস্তবায়ন করছে। এখন সারা বাংলাদেশে আমাদের ৬০০০ এরও বেশি উদ্যোক্তা আছে।
-
-
-
-                            </p>
-                        </div>
-                        <div class="col-lg-4 col-sm-4 col-md-4">
-                            <h4 style=" padding: 2px; border-radius: 1px;">Project Partner</h4>
-                            <hr />
-                            1996
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer">
-
-                </div>
-            </div>
-
-        </div>
-    </div>
-    -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4 col-sm-12 col-xl-4">
-                            <img style="width:300px;height:300px;" src="/Content/Admin/Upload/ProjectPartner/Ecoeye 01.jpg" />
-                        </div>
-                        <div class="col-md-8 col-sm-12 col-xl-8">
-                            <div class="cont">
-                                <!-- <h6><b>Bangladesh Climate Change Trust (BCCT)</b></h6>-->
-                                <br />
-                                <h6><strong style="font-family:Kalpurush;font-size:x-large;">     ইকোআই</strong></h6>
-                                <br />
-                                <p style="font-family:Kalpurush;">
-                                    ইকোআই দক্ষিণ কোরিয়ার সিউলভিত্তিক একটি অপ্রতিদ্বন্দ্বী কার্বন ক্রেডিট সরবরাহকারী । ১৫ বছরের বেশি সময়ের অভিজ্ঞতাসহ আমাদের প্রতিষ্ঠান নিঃসরণ হ্রাস প্রকল্প উন্নয়ন, কার্বন ট্রেডিং, ইটিএস এডভাইজরি এবং অভ্যন্তরীণ ক্ষেত্রে বাজার বিশ্লেষণের ওপর গুরুত্বারোপ করে। ২০১৫ সালের জানুয়ারীতে কোরিয়া নিঃসরণ বাণিজ্য পরিকল্পনা শুরু করা অবধি বিভিন্ন স্থানীয় এবং বৈশ্বিক অংশীদারদের সাথে সহযোগিতার ভিত্তিতে আন্তর্জাতিক অফসেট ক্রেডিট উন্নয়ন এবং প্রসারের জন্যে আমরা উদ্যোগ গ্রহণ করে চলেছি। সম্মতিপ্রদানকারী সংস্থাগুলিকে তাদের ইটিএস লক্ষ্য পূরণে কৌশলগত ব্যবস্থা স্থাপনে সহায়তা করার সময়, আমরা এনডিসি লক্ষ্যমাত্রা সাশ্রয়ীভাবে পূরণ করার জন্য ইটিএস-সম্পর্কিত নীতি ও প্রবিধানগুলি পরিচালনা করার জন্য সরকারকে পরামর্শ ও পরামর্শ দিই। Ecoeye এর লক্ষ্য সারা বিশ্বে আমাদের সমস্ত অংশীদার এবং ক্লায়েন্টদের জন্য এবং তাদের সাথে কার্যকর, ব্যবহারিক এবং টেকসই সমাধান প্রদান করা।
-
-                                </p>
-
-                                <br />
-                                <button type="button" class="btn " data-toggle="modal" data-target="#myModal" style="background-color:#8AD95A;color:white;">আরও পড়ুন</button>
-                                <!--
-
-    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal">Read More</button>
-
-
-    <div class="modal fade" id="myModal" role="dialog">
-        <div class="modal-dialog" style="max-width:100%;">
-
-
-            <div class="modal-content">
-                <div class="modal-header bg-success text-md-center">
-                    <h3 class="modal-title" style="margin-left:30%;text-transform:uppercase;color:aliceblue;">Bangladesh Climate Change Trust (BCCT)</h3>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-8 col-sm-12 col-md-8">
-                            <h4 style="padding: 2px; border-radius: 1px;">Working Area</h4>
-                            <hr />
-                            <p id="poppartnertexteng">
-                            Ecoeye is an unrivaled carbon credit provider based in Seoul, Korea. With over fifteen years of experience, our team is highly skilled in emission reduction project development, carbon trading, ETS advisory as well as market analysis focusing on domestic trends. Since the launch of the Korea Emission Trading Scheme in January 2015, we have been taking initiatives in developing and promoting international offset credits in cooperation with our diverse set of local and global partners. While assisting compliance entities to establish strategic measures in meeting their ETS targets, we also advise and make suggestions to the government in operating ETS-related policies and regulations to meet the NDC target cost-effectively. Ecoeye aims to provide effective, practical and sustainable solutions for and with all our partners and clients all over the world.
-
-                            </p>
-                            <p style="display:none"  id="poppartnertextbng">
-                                ইকোআই দক্ষিণ কোরিয়ার সিউলভিত্তিক একটি অপ্রতিদ্বন্দ্বী কার্বন ক্রেডিট সরবরাহকারী । ১৫ বছরের বেশি সময়ের অভিজ্ঞতাসহ আমাদের প্রতিষ্ঠান নিঃসরণ হ্রাস প্রকল্প উন্নয়ন, কার্বন ট্রেডিং, ইটিএস এডভাইজরি এবং অভ্যন্তরীণ ক্ষেত্রে বাজার বিশ্লেষণের ওপর গুরুত্বারোপ করে। ২০১৫ সালের জানুয়ারীতে কোরিয়া নিঃসরণ বাণিজ্য পরিকল্পনা শুরু করা অবধি বিভিন্ন স্থানীয় এবং বৈশ্বিক অংশীদারদের সাথে সহযোগিতার ভিত্তিতে আন্তর্জাতিক অফসেট ক্রেডিট উন্নয়ন এবং প্রসারের জন্যে আমরা উদ্যোগ গ্রহণ করে চলেছি। সম্মতিপ্রদানকারী সংস্থাগুলিকে তাদের ইটিএস লক্ষ্য পূরণে কৌশলগত ব্যবস্থা স্থাপনে সহায়তা করার সময়, আমরা এনডিসি লক্ষ্যমাত্রা সাশ্রয়ীভাবে পূরণ করার জন্য ইটিএস-সম্পর্কিত নীতি ও প্রবিধানগুলি পরিচালনা করার জন্য সরকারকে পরামর্শ ও পরামর্শ দিই। Ecoeye এর লক্ষ্য সারা বিশ্বে আমাদের সমস্ত অংশীদার এবং ক্লায়েন্টদের জন্য এবং তাদের সাথে কার্যকর, ব্যবহারিক এবং টেকসই সমাধান প্রদান করা।
-
-                            </p>
-                        </div>
-                        <div class="col-lg-4 col-sm-4 col-md-4">
-                            <h4 style=" padding: 2px; border-radius: 1px;">Project Partner</h4>
-                            <hr />
-                            1996
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer">
-
-                </div>
-            </div>
-
-        </div>
-    </div>
-    -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4 col-sm-12 col-xl-4">
-                            <img style="width:300px;height:300px;" src="/Content/Admin/Upload/ProjectPartner/SKS Logo.jpg" />
-                        </div>
-                        <div class="col-md-8 col-sm-12 col-xl-8">
-                            <div class="cont">
-                                <!-- <h6><b>Bangladesh Climate Change Trust (BCCT)</b></h6>-->
-                                <br />
-                                <h6><strong style="font-family:Kalpurush;font-size:x-large;">এসকে সিকিউরিটিজ</strong></h6>
-                                <br />
-                                <p style="font-family:Kalpurush;">
-                                    এসকে সিকিউরিটিজ একটি দক্ষিণ কোরিয়াভিত্তিক আর্থিক পরিষেবা প্রদানকারী প্রতিষ্ঠান যেটি নিরাপত্তার জগতে একটি বিশেষজ্ঞ প্রতিষ্ঠান। এটি প্রাথমিকভাবে সিকিউরিটিজ ব্রোকারেজ, ডিলিং এবং আন্ডাররাইটিং ব্যবসার সাথে জড়িত, স্টক, ফিউচার, অপশন, সরকারি বন্ড, কর্পোরেট বন্ড, বৈদেশিক বিনিময় এবং আর্থিক ডেরিভেটিভ প্রোডাক্টের সাথে জড়িত। কোম্পানিটি বিনিয়োগ ব্যাংকিং ব্যবসায় জড়িত, যা অধিগ্রহণ, প্রকল্প অর্থায়ন পরিষেবা এবং সম্পদ ব্যবস্থাপনা পরিষেবা প্রদান করে। এসকে সিকিউরিটিজ ১৯৫৫ সালে প্রতিষ্ঠিত হয়েছিল।
-
-                                </p>
-
-                                <br />
-                                <button type="button" class="btn " data-toggle="modal" data-target="#myModal" style="background-color:#8AD95A;color:white;">আরও পড়ুন</button>
-                                <!--
-
-    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal">Read More</button>
-
-
-    <div class="modal fade" id="myModal" role="dialog">
-        <div class="modal-dialog" style="max-width:100%;">
-
-
-            <div class="modal-content">
-                <div class="modal-header bg-success text-md-center">
-                    <h3 class="modal-title" style="margin-left:30%;text-transform:uppercase;color:aliceblue;">Bangladesh Climate Change Trust (BCCT)</h3>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-8 col-sm-12 col-md-8">
-                            <h4 style="padding: 2px; border-radius: 1px;">Working Area</h4>
-                            <hr />
-                            <p id="poppartnertexteng">
-                            SK Securities is a South Korea-based financial service provider that specializes in the securities market. It primarily engaged in securities brokerage, dealing and underwriting businesses, covering stocks, futures, options, government bonds, corporate bonds, foreign exchanges, and financial derivative products. The company is also involved in the investment banking business, which provides acquisition, project financing services, and wealth management services. SK Securities was founded in 1955.
-
-                            </p>
-                            <p style="display:none"  id="poppartnertextbng">
-                                এসকে সিকিউরিটিজ একটি দক্ষিণ কোরিয়াভিত্তিক আর্থিক পরিষেবা প্রদানকারী প্রতিষ্ঠান যেটি নিরাপত্তার জগতে একটি বিশেষজ্ঞ প্রতিষ্ঠান। এটি প্রাথমিকভাবে সিকিউরিটিজ ব্রোকারেজ, ডিলিং এবং আন্ডাররাইটিং ব্যবসার সাথে জড়িত, স্টক, ফিউচার, অপশন, সরকারি বন্ড, কর্পোরেট বন্ড, বৈদেশিক বিনিময় এবং আর্থিক ডেরিভেটিভ প্রোডাক্টের সাথে জড়িত। কোম্পানিটি বিনিয়োগ ব্যাংকিং ব্যবসায় জড়িত, যা অধিগ্রহণ, প্রকল্প অর্থায়ন পরিষেবা এবং সম্পদ ব্যবস্থাপনা পরিষেবা প্রদান করে। এসকে সিকিউরিটিজ ১৯৫৫ সালে প্রতিষ্ঠিত হয়েছিল।
-
-                            </p>
-                        </div>
-                        <div class="col-lg-4 col-sm-4 col-md-4">
-                            <h4 style=" padding: 2px; border-radius: 1px;">Project Partner</h4>
-                            <hr />
-                            1996
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer">
-
-                </div>
-            </div>
-
-        </div>
-    </div>
-    -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4 col-sm-12 col-xl-4">
-                            <img style="width:300px;height:300px;" src="/Content/Admin/Upload/ProjectPartner/KOMIPO.jpg" />
-                        </div>
-                        <div class="col-md-8 col-sm-12 col-xl-8">
-                            <div class="cont">
-                                <!-- <h6><b>Bangladesh Climate Change Trust (BCCT)</b></h6>-->
-                                <br />
-                                <h6><strong style="font-family:Kalpurush;font-size:x-large;">   কমিপো</strong></h6>
-                                <br />
-                                <p style="font-family:Kalpurush;">
-                                    বিশ্বমানের বিদ্যুৎকেন্দ্র নির্মাণ ও পরিচালনা প্রযুক্তিতে দৃঢ়ভাবে নির্মিত, কোরিয়া মিডল্যান্ড পাওয়ার তাপীয় বিদ্যুৎ উৎপাদন (কয়লা, এলএনজি, ভারী তেল), বায়ু বিদ্যুৎ উৎপাদন, সৌর শক্তি, এসআরএফ এবং জ্বালানী সেল বিদ্যুৎ উৎপাদনের মাধ্যমে উচ্চমানের, স্থিতিশীল বিদ্যুৎ সরবরাহ করে। । জনসাধারণকে পরিষ্কার এবং স্বাস্থ্যকর শক্তি সরবরাহ করার জন্য, কোরিয়া মিডল্যান্ড পাওয়ার তার তাপ বিদ্যুৎ কেন্দ্রগুলির পরিবেশ পর্যবেক্ষণ সুবিধাগুলি বিশ্বের শীর্ষ মানের সাথে প্রতিস্থাপন করেছে এবং কণা এবং পরিবেশ দূষণ সম্পর্কে উদ্বেগ রোধে নিরাপদ বিদ্যুৎ কেন্দ্র পরিচালনা করে। কোরিয়ায় বিভিন্ন ধরণের নবায়নযোগ্য জ্বালানি উৎসের ক্রমাগত বিকাশের মাধ্যমে এটি কোরিয়ায় শক্তি রূপান্তরের দিকে পরিচালিত করছে।
-
-                                </p>
-
-                                <br />
-                                <button type="button" class="btn " data-toggle="modal" data-target="#myModal" style="background-color:#8AD95A;color:white;">আরও পড়ুন</button>
-                                <!--
-
-    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal">Read More</button>
-
-
-    <div class="modal fade" id="myModal" role="dialog">
-        <div class="modal-dialog" style="max-width:100%;">
-
-
-            <div class="modal-content">
-                <div class="modal-header bg-success text-md-center">
-                    <h3 class="modal-title" style="margin-left:30%;text-transform:uppercase;color:aliceblue;">Bangladesh Climate Change Trust (BCCT)</h3>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-8 col-sm-12 col-md-8">
-                            <h4 style="padding: 2px; border-radius: 1px;">Working Area</h4>
-                            <hr />
-                            <p id="poppartnertexteng">
-                            Firmly built on its world-class power plant construction and operation technology, Korea Midland Power supplies high quality, stable power through thermal power generation (coal, LNG, heavy oil), wind power generation, solar energy, SRF, and fuel cell power generation. In order to deliver cleaner and healthier energy to the public, Korea Midland Power has replaced the environmental monitoring facilities of its thermal power plants with the world’s top standards and operates safe power plants preventing any concerns about particulates and environmental pollution. It is leading the way for the drive towards energy transformation in Korea through the continued development of a wide variety of renewable energy sources.
-
-                            </p>
-                            <p style="display:none"  id="poppartnertextbng">
-                                বিশ্বমানের বিদ্যুৎকেন্দ্র নির্মাণ ও পরিচালনা প্রযুক্তিতে দৃঢ়ভাবে নির্মিত, কোরিয়া মিডল্যান্ড পাওয়ার তাপীয় বিদ্যুৎ উৎপাদন (কয়লা, এলএনজি, ভারী তেল), বায়ু বিদ্যুৎ উৎপাদন, সৌর শক্তি, এসআরএফ এবং জ্বালানী সেল বিদ্যুৎ উৎপাদনের মাধ্যমে উচ্চমানের, স্থিতিশীল বিদ্যুৎ সরবরাহ করে। । জনসাধারণকে পরিষ্কার এবং স্বাস্থ্যকর শক্তি সরবরাহ করার জন্য, কোরিয়া মিডল্যান্ড পাওয়ার তার তাপ বিদ্যুৎ কেন্দ্রগুলির পরিবেশ পর্যবেক্ষণ সুবিধাগুলি বিশ্বের শীর্ষ মানের সাথে প্রতিস্থাপন করেছে এবং কণা এবং পরিবেশ দূষণ সম্পর্কে উদ্বেগ রোধে নিরাপদ বিদ্যুৎ কেন্দ্র পরিচালনা করে। কোরিয়ায় বিভিন্ন ধরণের নবায়নযোগ্য জ্বালানি উৎসের ক্রমাগত বিকাশের মাধ্যমে এটি কোরিয়ায় শক্তি রূপান্তরের দিকে পরিচালিত করছে।
-
-                            </p>
-                        </div>
-                        <div class="col-lg-4 col-sm-4 col-md-4">
-                            <h4 style=" padding: 2px; border-radius: 1px;">Project Partner</h4>
-                            <hr />
-                            1996
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer">
-
-                </div>
-            </div>
-
-        </div>
-    </div>
-    -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4 col-sm-12 col-xl-4">
-                            <img style="width:300px;height:300px;" src="/Content/Admin/Upload/ProjectPartner/LGED.jpg" />
-                        </div>
-                        <div class="col-md-8 col-sm-12 col-xl-8">
-                            <div class="cont">
-                                <!-- <h6><b>Bangladesh Climate Change Trust (BCCT)</b></h6>-->
-                                <br />
-                                <h6><strong style="font-family:Kalpurush;font-size:x-large;">স্থানীয় সরকার প্রকৌশল অধিদপ্তর (এলজিইডি)</strong></h6>
-                                <br />
-                                <p style="font-family:Kalpurush;">
-
-স্থানীয় সরকার প্রকৌশল অধিদপ্তর বা ইংরেজি ভাষায় লোকাল গর্ভনমেন্ট ইঞ্জিনিয়ারিং ডিপার্টমেন্ট (এলজিইডি) হল বাংলাদেশ সরকারের একটি সাংগঠনিক অধিদপ্তর। স্থানীয় সরকারের আওতাভুক্ত বিভিন্ন প্রতিষ্ঠানের ভবন তৈরীর ক্ষেত্রে প্রযুক্তিগত উন্নয়ন পরিকল্পনা এবং সাহায্যের জন্য বাংলাদেশ সরকার এই সংগঠনটি প্রতিষ্ঠা করে।
-
-                                </p>
-
-                                <br />
-                                <button type="button" class="btn " data-toggle="modal" data-target="#myModal" style="background-color:#8AD95A;color:white;">আরও পড়ুন</button>
-                                <!--
-
-    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal">Read More</button>
-
-
-    <div class="modal fade" id="myModal" role="dialog">
-        <div class="modal-dialog" style="max-width:100%;">
-
-
-            <div class="modal-content">
-                <div class="modal-header bg-success text-md-center">
-                    <h3 class="modal-title" style="margin-left:30%;text-transform:uppercase;color:aliceblue;">Bangladesh Climate Change Trust (BCCT)</h3>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-8 col-sm-12 col-md-8">
-                            <h4 style="padding: 2px; border-radius: 1px;">Working Area</h4>
-                            <hr />
-                            <p id="poppartnertexteng">
-                            A meeting was held between LGED (Local Government Engineering Department) and Bangladesh Bondhu Foundation on 1 November 2020 at LGED Office in Dhaka. It was the first working meeting after signing the agreement with LGED in January 2020. The meeting was chaired by Engineer Gopal Krishna Debnath, Superintending Engineer (Planning &amp; Research), LGED. Dr. Engineer Khalequzzaman, Program Manager, Bangladesh Bondhu Foundation was also the key discussant in the meeting. An informative PowerPoint presentation on Bondhu Chula Program was presented by Md. Murtoja, Project Engineer, Bondhu Chula Program, SRI Unit, and LGED. The MoU was signed between LGED and Bangladesh Bondhu Foundation (BONDHU) on 16 January 2020. An agreement is being signed between the Bondhu Chula User and Bangladesh Bondhu Foundation. All the information is inserted in the database through the mobile apps with the signature of the Bondhu Chula users. - Dr. Engineer Khalequzzaman mentioned that Bangladesh Bondhu Foundation has a Bondhu Chula Doctor who is responsible for the maintenance of Bondhu Chula at the field level. A decision has been made that Bangladesh Bondhu Foundation will provide different study reports to LGED. A motivational documentary on using Bondhu Chula is shown through the projector. After the projector show, an open discussion is held with the villagers, where different issues regarding Bondhu Chula are discussed. Expectations from LGED: Dr. Engineer Khalequzzaman mentioned that Bangladesh Bondhu Foundation expects cordial cooperation from LGED for the promotion of Bondhu Chula. Upazila Nirbahi Officer and Upazila LGED Engineer could help in this regard and they can ask the Upazila Chairman and Members in the Upazila Development and Coordination Meeting to inspire about the Bondhu Chula. Engineer Gopal Krishna Debnath suggested that Bangladesh Bondhu Foundation may also communicate with the Additional Divisional Engineer of LGED and share the information about Bondhu Chula with them at the district and divisional levels.
-
-                            </p>
-                            <p style="display:none"  id="poppartnertextbng">
-
-স্থানীয় সরকার প্রকৌশল অধিদপ্তর বা ইংরেজি ভাষায় লোকাল গর্ভনমেন্ট ইঞ্জিনিয়ারিং ডিপার্টমেন্ট (এলজিইডি) হল বাংলাদেশ সরকারের একটি সাংগঠনিক অধিদপ্তর। স্থানীয় সরকারের আওতাভুক্ত বিভিন্ন প্রতিষ্ঠানের ভবন তৈরীর ক্ষেত্রে প্রযুক্তিগত উন্নয়ন পরিকল্পনা এবং সাহায্যের জন্য বাংলাদেশ সরকার এই সংগঠনটি প্রতিষ্ঠা করে।
-
-                            </p>
-                        </div>
-                        <div class="col-lg-4 col-sm-4 col-md-4">
-                            <h4 style=" padding: 2px; border-radius: 1px;">Project Partner</h4>
-                            <hr />
-                            1996
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer">
-
-                </div>
-            </div>
-
-        </div>
-    </div>
-    -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4 col-sm-12 col-xl-4">
-                            <img style="width:300px;height:300px;" src="/Content/Admin/Upload/ProjectPartner/BCCT.jpg" />
-                        </div>
-                        <div class="col-md-8 col-sm-12 col-xl-8">
-                            <div class="cont">
-                                <!-- <h6><b>Bangladesh Climate Change Trust (BCCT)</b></h6>-->
-                                <br />
-                                <h6><strong style="font-family:Kalpurush;font-size:x-large;">পরিবেশ মন্ত্রণালয়</strong></h6>
-                                <br />
-                                <p style="font-family:Kalpurush;">
-
-জিআইজেড একটি জার্মান ডেভেলপমেন্ট কো-অপারেশন যা ইম্প্রুভেড কুক স্টোভ (আইসিএস) প্রচার করে এবং ২০১২-২০১ সালে বাংলাদেশ জলবায়ু পরিবর্তন ট্রাস্ট (বিসিসিটি) -এর সাথে ‘বন্ধু চুলার জন্য বাজার উন্নয়ন উদ্যোগ’ প্রকল্প গ্রহণ করে। জিআইজেড এবং বিসিসিটির যৌথভাবে এনার্জাইজিং ডেভেলপমেন্ট (এনডেভ) প্রকল্পটিকে অর্থায়ন করেছে। প্রকল্পের লক্ষ্য ছিল এমন উদ্যোক্তা তৈরি করা যারা তাদের ব্যবসার অংশ হিসেবে বন্ধুচুলা উৎপাদন, বিক্রি এবং ইনস্টল করতে পারে। এই উদ্যোক্তারা বেশিরভাগ স্যানিটারি দোকান মালিক এবং রাজমিস্ত্রি। এই প্রকল্পের অধীনে ৫০০০ উদ্যোক্তাদের বিকাশ করা হয়েছে এবং ৫,০,০০০ বন্ধু চুলগুলি স্থাপন করা হয়েছে। বন্ধু চুলা কর্মসূচি বাস্তবায়নের জন্য, EnDev একটি দেশব্যাপী অবকাঠামো প্রতিষ্ঠা করেছে যেখানে প্রায় ২০০ টি অফিস ৫০০ জন নিয়মিত কর্মী এবং প্রায় ১০০০ খণ্ডকালীন কর্মচারী রয়েছে। এই অবকাঠামো বিবিএফের কাছে হস্তান্তর করা হয়েছে। BIF GIZ-EnDev এর পক্ষ থেকে বন্ধু চুলা কার্যক্রম বাস্তবায়ন করে আসছে। বাংলাদেশ বন্ধু ফাউন্ডেশন (বন্ধু) প্রতিষ্ঠার পর, BCCT প্রকল্পের দ্বিতীয় ধাপ অনুমোদন করে ‘বাজার চুলার জন্য বাজার উন্নয়ন উদ্যোগ’। এই নতুন ধাপের অধীনে, ০১ জুলাই ২০১৫ থেকে ৩১ ডিসেম্বর ২০১৬ পর্যন্ত ৪০০০০০ বন্ধু চুলগুলি স্থাপন করা হবে বলে আশা করা হচ্ছে। এই প্রকল্পটি DoE এবং GIZ, বাংলাদেশ বন্ধু ফাউন্ডেশন (বন্ধু) এর মাধ্যমে যৌথভাবে বাস্তবায়ন করছে এখন আমাদের সারা বাংলাদেশে ৬০০০ এরও বেশি উদ্যোক্তা আছে।
-
-                                </p>
-
-                                <br />
-                                <button type="button" class="btn " data-toggle="modal" data-target="#myModal" style="background-color:#8AD95A;color:white;">আরও পড়ুন</button>
-                                <!--
-
-    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal">Read More</button>
-
-
-    <div class="modal fade" id="myModal" role="dialog">
-        <div class="modal-dialog" style="max-width:100%;">
-
-
-            <div class="modal-content">
-                <div class="modal-header bg-success text-md-center">
-                    <h3 class="modal-title" style="margin-left:30%;text-transform:uppercase;color:aliceblue;">Bangladesh Climate Change Trust (BCCT)</h3>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-8 col-sm-12 col-md-8">
-                            <h4 style="padding: 2px; border-radius: 1px;">Working Area</h4>
-                            <hr />
-                            <p id="poppartnertexteng">
-                            BCCT (Bangladesh Climate Change Trust) and GIZ (German Development Co-operation) undertook a project titled ‘Market Development Initiative for Bondhu Chula’. The aim of the project was to create 5000 entrepreneurs, who could produce, sell and install Bondhu Chula as a part of their business. The project was successfully implemented by DoE and GIZ and was completed on 31st March 2014. After the establishment of BBF, BCCT approved the second phase of the project ‘Market Development Initiative for Bondhu Chula’. Under this new phase, 400,000 Bondhu Chula’s are expected to be installed during the period from 01 July 2015 to 31 December 2016. This project was successfully completed by DoE and GIZ, which is being implemented by BBF (Bangladesh Bondhu Foundation).
-
-                            </p>
-                            <p style="display:none"  id="poppartnertextbng">
-
-জিআইজেড একটি জার্মান ডেভেলপমেন্ট কো-অপারেশন যা ইম্প্রুভেড কুক স্টোভ (আইসিএস) প্রচার করে এবং ২০১২-২০১ সালে বাংলাদেশ জলবায়ু পরিবর্তন ট্রাস্ট (বিসিসিটি) -এর সাথে ‘বন্ধু চুলার জন্য বাজার উন্নয়ন উদ্যোগ’ প্রকল্প গ্রহণ করে। জিআইজেড এবং বিসিসিটির যৌথভাবে এনার্জাইজিং ডেভেলপমেন্ট (এনডেভ) প্রকল্পটিকে অর্থায়ন করেছে। প্রকল্পের লক্ষ্য ছিল এমন উদ্যোক্তা তৈরি করা যারা তাদের ব্যবসার অংশ হিসেবে বন্ধুচুলা উৎপাদন, বিক্রি এবং ইনস্টল করতে পারে। এই উদ্যোক্তারা বেশিরভাগ স্যানিটারি দোকান মালিক এবং রাজমিস্ত্রি। এই প্রকল্পের অধীনে ৫০০০ উদ্যোক্তাদের বিকাশ করা হয়েছে এবং ৫,০,০০০ বন্ধু চুলগুলি স্থাপন করা হয়েছে। বন্ধু চুলা কর্মসূচি বাস্তবায়নের জন্য, EnDev একটি দেশব্যাপী অবকাঠামো প্রতিষ্ঠা করেছে যেখানে প্রায় ২০০ টি অফিস ৫০০ জন নিয়মিত কর্মী এবং প্রায় ১০০০ খণ্ডকালীন কর্মচারী রয়েছে। এই অবকাঠামো বিবিএফের কাছে হস্তান্তর করা হয়েছে। BIF GIZ-EnDev এর পক্ষ থেকে বন্ধু চুলা কার্যক্রম বাস্তবায়ন করে আসছে। বাংলাদেশ বন্ধু ফাউন্ডেশন (বন্ধু) প্রতিষ্ঠার পর, BCCT প্রকল্পের দ্বিতীয় ধাপ অনুমোদন করে ‘বাজার চুলার জন্য বাজার উন্নয়ন উদ্যোগ’। এই নতুন ধাপের অধীনে, ০১ জুলাই ২০১৫ থেকে ৩১ ডিসেম্বর ২০১৬ পর্যন্ত ৪০০০০০ বন্ধু চুলগুলি স্থাপন করা হবে বলে আশা করা হচ্ছে। এই প্রকল্পটি DoE এবং GIZ, বাংলাদেশ বন্ধু ফাউন্ডেশন (বন্ধু) এর মাধ্যমে যৌথভাবে বাস্তবায়ন করছে এখন আমাদের সারা বাংলাদেশে ৬০০০ এরও বেশি উদ্যোক্তা আছে।
-
-                            </p>
-                        </div>
-                        <div class="col-lg-4 col-sm-4 col-md-4">
-                            <h4 style=" padding: 2px; border-radius: 1px;">Project Partner</h4>
-                            <hr />
-                            2000
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer">
-
-                </div>
-            </div>
-
-        </div>
-    </div>
-    -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4 col-sm-12 col-xl-4">
-                            <img style="width:300px;height:300px;" src="/Content/Admin/Upload/ProjectPartner/VNV Logo.png" />
-                        </div>
-                        <div class="col-md-8 col-sm-12 col-xl-8">
-                            <div class="cont">
-                                <!-- <h6><b>Bangladesh Climate Change Trust (BCCT)</b></h6>-->
-                                <br />
-                                <h6><strong style="font-family:Kalpurush;font-size:x-large;">ভিএনভি এডভাইজরি সার্ভিসেস</strong></h6>
-                                <br />
-                                <p style="font-family:Kalpurush;">
-
+<div class="container-fluid">
+<div class="row">
+<div class="col-lg-8 col-sm-12 col-md-8">
+<h4 style="padding: 2px; border-radius: 1px;">Working Area</h4>
+<hr />
+<p id="poppartnertexteng">
+Bangladesh Bondhu Foundation (BONDHU) and VNV Advisory Services are going to jointly implement a program titled &quot;Solar Pumping System for Drinking Water Supply Plant&quot; in Bangladesh under the Gold Standard project. The objective of the project is to provide safe drinking water to the people in the coastal areas of Bangladesh who are at risk of climate change. To this end, the wastewater plant already set up by GIZ will be repaired and new plants will be set up. The project will be registered with the Gold Standard and the universal goal of the Gold Standard will contribute to the reduction of carbon emissions.
+</p>
+<p style="display:none"  id="poppartnertextbng">
 বাংলাদেশ বন্ধু ফাউন্ডেশন (বন্ধু) এবং ভিএনভি এডভাইজরি সার্ভিসেস যৌথভাবে বাংলাদেশে গোল্ড স্ট্যান্ডার্ড প্রকল্পের আওতায় “সোলার পাম্পিং সিস্টেম ফর ড্রিংকিং ওয়াটার সাপ্লাই প্ল্যান্ট” শীর্ষক কার্যক্রম বাস্তবায়ন করতে যাচ্ছে। প্রকল্পের উদ্দেশ্য বাংলাদেশের উপকূলীয় অঞ্চলের জলবায়ু পরিবর্তনে হুমকির মধ্যে থাকা জনগোষ্ঠীর জন্য নিরাপদ ও সুপেয় পানির সরবরাহ করা। এজন্য ইতোমধ্যে জি আই জেড দ্বারা স্থাপিত অকেজো পানির প্ল্যান্ট মেরামত করা হবে এবং নতুন প্ল্যান্ট স্থাপন করা হবে। প্রকল্পটি গোল্ড স্ট্যান্ডার্ডের সাথে রেজিষ্ট্রেশন করা হবে এবং গোল্ড স্ট্যান্ডার্ডের সার্বজনীন লক্ষ্য কার্বন নিঃসরণ হ্রাসে অবদান রাখবে।
-
-                                </p>
-
-                                <br />
-                                <button type="button" class="btn " data-toggle="modal" data-target="#myModal" style="background-color:#8AD95A;color:white;">আরও পড়ুন</button>
-                                <!--
-
-    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal">Read More</button>
-
-
-    <div class="modal fade" id="myModal" role="dialog">
-        <div class="modal-dialog" style="max-width:100%;">
-
-
-            <div class="modal-content">
-                <div class="modal-header bg-success text-md-center">
-                    <h3 class="modal-title" style="margin-left:30%;text-transform:uppercase;color:aliceblue;">Bangladesh Climate Change Trust (BCCT)</h3>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-8 col-sm-12 col-md-8">
-                            <h4 style="padding: 2px; border-radius: 1px;">Working Area</h4>
-                            <hr />
-                            <p id="poppartnertexteng">
-                            Bangladesh Bondhu Foundation (BONDHU) and VNV Advisory Services are going to jointly implement a program titled &quot;Solar Pumping System for Drinking Water Supply Plant&quot; in Bangladesh under the Gold Standard project. The objective of the project is to provide safe drinking water to the people in the coastal areas of Bangladesh who are at risk of climate change. To this end, the wastewater plant already set up by GIZ will be repaired and new plants will be set up. The project will be registered with the Gold Standard and the universal goal of the Gold Standard will contribute to the reduction of carbon emissions.
-
-                            </p>
-                            <p style="display:none"  id="poppartnertextbng">
-
-বাংলাদেশ বন্ধু ফাউন্ডেশন (বন্ধু) এবং ভিএনভি এডভাইজরি সার্ভিসেস যৌথভাবে বাংলাদেশে গোল্ড স্ট্যান্ডার্ড প্রকল্পের আওতায় “সোলার পাম্পিং সিস্টেম ফর ড্রিংকিং ওয়াটার সাপ্লাই প্ল্যান্ট” শীর্ষক কার্যক্রম বাস্তবায়ন করতে যাচ্ছে। প্রকল্পের উদ্দেশ্য বাংলাদেশের উপকূলীয় অঞ্চলের জলবায়ু পরিবর্তনে হুমকির মধ্যে থাকা জনগোষ্ঠীর জন্য নিরাপদ ও সুপেয় পানির সরবরাহ করা। এজন্য ইতোমধ্যে জি আই জেড দ্বারা স্থাপিত অকেজো পানির প্ল্যান্ট মেরামত করা হবে এবং নতুন প্ল্যান্ট স্থাপন করা হবে। প্রকল্পটি গোল্ড স্ট্যান্ডার্ডের সাথে রেজিষ্ট্রেশন করা হবে এবং গোল্ড স্ট্যান্ডার্ডের সার্বজনীন লক্ষ্য কার্বন নিঃসরণ হ্রাসে অবদান রাখবে।
-
-                            </p>
-                        </div>
-                        <div class="col-lg-4 col-sm-4 col-md-4">
-                            <h4 style=" padding: 2px; border-radius: 1px;">Project Partner</h4>
-                            <hr />
-                            2000
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer">
-
-                </div>
-            </div>
-
-        </div>
-    </div>
-    -->
-                            </div>
-                        </div>
-                    </div>
-
-            </div>
-        </div>
-
-    </div>
+</p>
 </div>
+<div class="col-lg-4 col-sm-4 col-md-4">
+<h4 style=" padding: 2px; border-radius: 1px;">Project Partner</h4>
+<hr />
+2000
+</div>
+</div>
+</div>
+<div class="modal-footer">
+</div>
+</div>
+</div>
+</div>
+-->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
     </main>
-
-	  <footer class="py-4 text-white">
-	  	<div class="container">
-	  		<div class="row">
-	  			<div class="col-lg-4">
-	  				<h4>Contact Details</h4>
-	  				<address>
-	  					 <i class="fa fa-map-marker"></i>H # 8/12 (1st Floor), Block# B, Lalmatia, Mohammadpur, Dhaka – 1207. <br>
-	  					 <i class="fa fa-phone"></i>+880-1313-411000, 01833104100 <br>
-	  					 <i class="fa fa-envelope"></i>	bbf@bondhufoundation.org
-	  				</address>
-	  			</div>
-	  			<div class="col-lg-4">
-	  				<h4>Useful Link</h4>
-	  				<ul class="link">
-	  					<li><a href="#"><i class="fas fa-angle-right"></i>Home</a></li>
-	  					<li><a href="#"><i class="fas fa-angle-right"></i>Gallery</a></li>
-	  					<li><a href="#"><i class="fas fa-angle-right"></i>SZBD</a></li>
-	  					<li><a href="#"><i class="fas fa-angle-right"></i>Bashori- A Nazrul Centre.</a></li>
-
-	  				</ul>
-	  			</div>
-	  			<div class="col-lg-4">
-	  				<h4>Visitor Counter</h4>
-	  			</div>
-	  		</div>
-	  	</div>
-	  </footer>
-	  <div class="footer py-3">
-	  	<div class="d-flex justify-content-center align-items-center">
-
-                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="#"><i class="fa-brands fa-google-plus"></i></a>
-                    <a href="#"><i class="fa-brands fa-youtube w3-text-white mr-4"></i></a>
-                    <a href="#"><i class="fab fa-pinterest w3-text-white mr-4"></i></a>
-
-
-	  	</div>
-	  </div>
-
-	   <script src="js/bootstrap.bundle.min.js"></script>
+    <footer class="py-4 text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <h4>Contact Details
+            </h4>
+            <address>
+              <i class="fa fa-map-marker">
+              </i>H # 8/12 (1st Floor), Block# B, Lalmatia, Mohammadpur, Dhaka – 1207. 
+              <br>
+              <i class="fa fa-phone">
+              </i>+880-1313-411000, 01833104100 
+              <br>
+              <i class="fa fa-envelope">
+              </i>  bbf@bondhufoundation.org
+            </address>
+          </div>
+          <div class="col-lg-4">
+            <h4>Useful Link
+            </h4>
+            <ul class="link">
+              <li>
+                <a href="#">
+                  <i class="fas fa-angle-right">
+                  </i>Home
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fas fa-angle-right">
+                  </i>Gallery
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fas fa-angle-right">
+                  </i>SZBD
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fas fa-angle-right">
+                  </i>Bashori- A Nazrul Centre.
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4">
+            <h4>Visitor Counter
+            </h4>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="footer py-3">
+      <div class="d-flex justify-content-center align-items-center">
+        <a href="#">
+          <i class="fa-brands fa-facebook">
+          </i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-twitter">
+          </i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-linkedin">
+          </i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-google-plus">
+          </i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-youtube w3-text-white mr-4">
+          </i>
+        </a>
+        <a href="#">
+          <i class="fab fa-pinterest w3-text-white mr-4">
+          </i>
+        </a>
+      </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js">
+    </script>
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+-->
   </body>
 </html>
