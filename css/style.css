@@ -212,6 +212,8 @@ h3.heading{
 }
 .address-row p{letter-spacing: 1px;}
 .video-box{margin-bottom: 20px;}
+
+#content h6{color: #8AD95A;font-weight: 600;text-transform: capitalize;font-size: 22px;}
 /*
                AA              ZZZZZZZZZZZZZZZ    IIIIIIIIIIIIIIII        LL               IIIIIIIIIIIIIIIIIII     NNNN        NN
               A  A                        ZZ            II               LL                        II              NN NN       NN
